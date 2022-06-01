@@ -1,13 +1,14 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.17)  1 JUN 2022 22:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.31)  2 JUN 2022 00:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **./LuanVan.tex
 (LuanVan.tex
 LaTeX2e <2021-11-15> patch level 1
-L3 programming layer <2022-02-24> (D:\Miktek\tex/latex/base\book.cls
+L3 programming layer <2022-02-24>
+(C:\Users\Hoa Loan\AppData\Local\Programs\MiKTeX\tex/latex/base\book.cls
 Document Class: book 2021/10/04 v1.4n Standard LaTeX document class
-(D:\Miktek\tex/latex/base\bk10.clo
+(C:\Users\Hoa Loan\AppData\Local\Programs\MiKTeX\tex/latex/base\bk10.clo
 File: bk10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count185
@@ -22,10 +23,12 @@ File: bk10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
-) (D:\Miktek\tex/latex/amsfonts\amssymb.sty
+)
+(C:\Users\Hoa Loan\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(D:\Miktek\tex/latex/amsfonts\amsfonts.sty
+(C:\Users\Hoa Loan\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.st
+y
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks16
 \symAMSa=\mathgroup4
@@ -34,15 +37,16 @@ LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-(D:\Miktek\tex/latex/base\latexsym.sty
+(C:\Users\Hoa Loan\AppData\Local\Programs\MiKTeX\tex/latex/base\latexsym.sty
 Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
 \symlasy=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
 (Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
-) (D:\Miktek\tex/latex/amsmath\amscd.sty
+)
+(C:\Users\Hoa Loan\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amscd.sty
 Package: amscd 2017/04/14 v2.1 AMS Commutative Diagrams
 
-(D:\Miktek\tex/latex/amsmath\amsgen.sty
+(C:\Users\Hoa Loan\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks17
 \ex@=\dimen139
@@ -51,20 +55,17 @@ File: amsgen.sty 1999/11/30 v2.0 generic functions
 \minaw@=\dimen140
 \bigaw@=\dimen141
 \minCDarrowwidth=\dimen142
-)
-(D:\Miktek\tex/latex/amsmath\amsmath.sty
+) (C:\Users\Hoa Loan\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.st
+y
 Package: amsmath 2021/10/15 v2.17l AMS math features
 \@mathmargin=\skip49
-
 For additional information on amsmath, use the `?' option.
-(D:\Miktek\tex/latex/amsmath\amstext.sty
+(C:\Users\Hoa Loan\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
-)
-(D:\Miktek\tex/latex/amsmath\amsbsy.sty
+) (C:\Users\Hoa Loan\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen143
-)
-(D:\Miktek\tex/latex/amsmath\amsopn.sty
+) (C:\Users\Hoa Loan\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2021/08/26 v2.02 operator names
 )
 \inf@bad=\count194
@@ -105,11 +106,12 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 LaTeX Info: Redefining \[ on input line 2938.
 LaTeX Info: Redefining \] on input line 2939.
 )
-(D:\Miktek\tex/latex/tools\enumerate.sty
+(C:\Users\Hoa Loan\AppData\Local\Programs\MiKTeX\tex/latex/tools\enumerate.sty
 Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
 \@enLab=\toks23
 )
-(D:\Miktek\tex/latex/supertabular\supertabular.sty
+(C:\Users\Hoa Loan\AppData\Local\Programs\MiKTeX\tex/latex/supertabular\superta
+bular.sty
 Package: supertabular 2020/02/02 v4.1g the supertabular environment
 \c@tracingst=\count272
 \ST@wd=\dimen151
@@ -127,7 +129,8 @@ Package: supertabular 2020/02/02 v4.1g the supertabular environment
 \ST@dimen=\dimen160
 \ST@pbox=\box52
 )
-(D:\Miktek\tex/latex/enumitem\enumitem.sty
+(C:\Users\Hoa Loan\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.st
+y
 Package: enumitem 2019/06/20 v3.9 Customized lists
 \enitkv@toks@=\toks24
 \labelindent=\skip55
@@ -137,11 +140,10 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \enit@count@id=\count273
 \enitdp@description=\count274
 )
-(D:\Miktek\tex/latex/amsmath\amsxtra.sty
+(C:\Users\Hoa Loan\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsxtra.sty
 Package: amsxtra 1999/11/15 v1.2c AMS extra commands
 LaTeX Info: Redefining \nobreakspace on input line 54.
-)
-(D:\Miktek\tex/latex/amscls\amsthm.sty
+) (C:\Users\Hoa Loan\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
 \thm@style=\toks26
 \thm@bodyfont=\toks27
@@ -153,7 +155,8 @@ Package: amsthm 2020/05/29 v2.20.6
 \thm@headsep=\skip58
 \dth@everypar=\toks31
 )
-(D:\Miktek\tex/latex/subfigure\subfigure.sty
+(C:\Users\Hoa Loan\AppData\Local\Programs\MiKTeX\tex/latex/subfigure\subfigure.
+sty
 Package: subfigure 2002/07/30 v2.1.4 subfigure package
 \subfigtopskip=\skip59
 \subfigcapskip=\skip60
@@ -169,33 +172,38 @@ Package: subfigure 2002/07/30 v2.1.4 subfigure package
 ****************************************
 * Local config file subfigure.cfg used *
 ****************************************
-(D:\Miktek\tex/latex/subfigure\subfigure.cfg)
+
+(C:\Users\Hoa Loan\AppData\Local\Programs\MiKTeX\tex/latex/subfigure\subfigure.
+cfg)
 \subfig@top=\skip63
 \subfig@bottom=\skip64
 )
-(D:\Miktek\tex/latex/alnumsec\alnumsec.sty
+(C:\Users\Hoa Loan\AppData\Local\Programs\MiKTeX\tex/latex/alnumsec\alnumsec.st
+y
 Package: alnumsec 2007/07/27 v0.03 alphanumeric section numbers with ordinary s
 ectioning commands
- (D:\Miktek\tex/latex/base\ifthen.sty
+ (C:\Users\Hoa Loan\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
 )
 \c@alnumsec@level=\count279
 \c@fk@secdepth=\count280
 \c@fk@secstart=\count281
 \c@fk@changelevel=\count282
-) (D:\Miktek\tex/latex/tools\indentfirst.sty
-Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 )
-(D:\Miktek\tex/latex/vntex\vietnam.sty
+(C:\Users\Hoa Loan\AppData\Local\Programs\MiKTeX\tex/latex/tools\indentfirst.st
+y
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+) (C:\Users\Hoa Loan\AppData\Local\Programs\MiKTeX\tex/latex/vntex\vietnam.sty
 Package: vietnam 2009/07/12 v1.3 support for Vietnamese
- (D:\Miktek\tex/latex/base\fontenc.sty
+(C:\Users\Hoa Loan\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 
-(D:\Miktek\tex/latex/vntex\t5enc.def
+(C:\Users\Hoa Loan\AppData\Local\Programs\MiKTeX\tex/latex/vntex\t5enc.def
 File: t5enc.def 2006/11/21 v1.4 Vietnamese T5 encoding
 Now handling font encoding T5 ...
 ... processing UTF-8 mapping file for font encoding T5
- (D:\Miktek\tex/latex/vntex\t5enc.dfu
+
+(C:\Users\Hoa Loan\AppData\Local\Programs\MiKTeX\tex/latex/vntex\t5enc.dfu
 File: t5enc.dfu 2006/08/19 v1.1 UTF8 support for Vietnamese
    defining Unicode char U+00AB (decimal 171)
    defining Unicode char U+00BB (decimal 187)
@@ -352,43 +360,46 @@ File: t5enc.dfu 2006/08/19 v1.1 UTF8 support for Vietnamese
 LaTeX Font Info:    Trying to load font information for T5+cmr on input line 11
 2.
 
-(D:\Miktek\tex/latex/vntex\t5cmr.fd
+(C:\Users\Hoa Loan\AppData\Local\Programs\MiKTeX\tex/latex/vntex\t5cmr.fd
 File: t5cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)) (D:\Miktek\tex/latex/base\inputenc.sty
+))
+(C:\Users\Hoa Loan\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks32
 \inpenc@posthook=\toks33
 )
-(D:\Miktek\tex/latex/vntex\vncaps.tex
+(C:\Users\Hoa Loan\AppData\Local\Programs\MiKTeX\tex/latex/vntex\vncaps.tex
 File: vncaps.tex 2006/06/07 v1.1 Captions in Vietnamese
 ))
-(D:\Miktek\tex/latex/graphics\graphics.sty
+(C:\Users\Hoa Loan\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.st
+y
 Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
-
-(D:\Miktek\tex/latex/graphics\trig.sty
+ (C:\Users\Hoa Loan\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
 )
-(D:\Miktek\tex/latex/graphics-cfg\graphics.cfg
+(C:\Users\Hoa Loan\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphic
+s.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
 
-(D:\Miktek\tex/latex/graphics-def\pdftex.def
+(C:\Users\Hoa Loan\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.
+def
 File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
-(D:\Miktek\tex/latex/graphics\graphicx.sty
+(C:\Users\Hoa Loan\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.st
+y
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
-(D:\Miktek\tex/latex/graphics\keyval.sty
+(C:\Users\Hoa Loan\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks34
 )
 \Gin@req@height=\dimen164
 \Gin@req@width=\dimen165
-)
-(D:\Miktek\tex/latex/tools\tabularx.sty
+) (C:\Users\Hoa Loan\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
 Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
- (D:\Miktek\tex/latex/tools\array.sty
+(C:\Users\Hoa Loan\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
 Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
 \col@sep=\dimen166
 \ar@mcellbox=\box54
@@ -406,7 +417,7 @@ Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
 \TX@cols=\count283
 \TX@ftn=\toks36
 )
-(D:\Miktek\tex/latex/eepic\epic.sty
+(C:\Users\Hoa Loan\AppData\Local\Programs\MiKTeX\tex/latex/eepic\epic.sty
 Enhancements to Picture Environment. Version 1.2 - Released June 1, 1986
 \@@multicnt=\count284
 \d@lta=\count285
@@ -424,14 +435,14 @@ Enhancements to Picture Environment. Version 1.2 - Released June 1, 1986
 \num@segments=\count290
 \num@segmentsi=\count291
 \@datafile=\read2
-) (D:\Miktek\tex/latex/eepic\eepic.sty
+) (C:\Users\Hoa Loan\AppData\Local\Programs\MiKTeX\tex/latex/eepic\eepic.sty
 Extension to Epic and LaTeX. Version 1.1e - Released Dec 21, 1999
 \@gphlinewidth=\count292
 \@eepictcnt=\count293
 \@tempdimc=\dimen179
 \maxovaldiam=\dimen180
 \@filltype=\box57
-) (D:\Miktek\tex/latex/lineno\lineno.sty
+) (C:\Users\Hoa Loan\AppData\Local\Programs\MiKTeX\tex/latex/lineno\lineno.sty
 Package: lineno 2005/11/02 line numbers on paragraphs v4.41
 \linenopenalty=\count294
 \output=\toks37
@@ -448,71 +459,80 @@ Package: lineno 2005/11/02 line numbers on paragraphs v4.41
 \bframesep=\dimen185
 \bframebox=\box58
 LaTeX Info: Redefining \\ on input line 3056.
-)
-(D:\Miktek\tex/latex/amsfonts\eucal.sty
+) (C:\Users\Hoa Loan\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\eucal.sty
 Package: eucal 2009/06/22 v3.00 Euler Script fonts
 LaTeX Font Info:    Overwriting math alphabet `\EuScript' in version `bold'
 (Font)                  U/eus/m/n --> U/eus/b/n on input line 33.
 )
-(D:\Miktek\tex/latex/hyperref\hyperref.sty
+(C:\Users\Hoa Loan\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.st
+y
 Package: hyperref 2022-02-21 v7.00n Hypertext links for LaTeX
 
-(D:\Miktek\tex/generic/ltxcmds\ltxcmds.sty
+(C:\Users\Hoa Loan\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.st
+y
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
-)
-(D:\Miktek\tex/generic/iftex\iftex.sty
+) (C:\Users\Hoa Loan\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 )
-(D:\Miktek\tex/generic/pdftexcmds\pdftexcmds.sty
+(C:\Users\Hoa Loan\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexc
+mds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(D:\Miktek\tex/generic/infwarerr\infwarerr.sty
+(C:\Users\Hoa Loan\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarer
+r.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-(D:\Miktek\tex/generic/kvsetkeys\kvsetkeys.sty
+(C:\Users\Hoa Loan\AppData\Local\Programs\MiKTeX\tex/generic/kvsetkeys\kvsetkey
+s.sty
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 )
-(D:\Miktek\tex/generic/kvdefinekeys\kvdefinekeys.sty
+(C:\Users\Hoa Loan\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdef
+inekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 )
-(D:\Miktek\tex/generic/pdfescape\pdfescape.sty
+(C:\Users\Hoa Loan\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescap
+e.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
 )
-(D:\Miktek\tex/latex/hycolor\hycolor.sty
+(C:\Users\Hoa Loan\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
-(D:\Miktek\tex/latex/letltxmacro\letltxmacro.sty
+(C:\Users\Hoa Loan\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxma
+cro.sty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 )
-(D:\Miktek\tex/latex/auxhook\auxhook.sty
+(C:\Users\Hoa Loan\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
-(D:\Miktek\tex/latex/kvoptions\kvoptions.sty
+(C:\Users\Hoa Loan\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.
+sty
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 )
 \@linkdim=\dimen186
 \Hy@linkcounter=\count301
 \Hy@pagecounter=\count302
 
-(D:\Miktek\tex/latex/hyperref\pd1enc.def
+(C:\Users\Hoa Loan\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2022-02-21 v7.00n Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-(D:\Miktek\tex/generic/intcalc\intcalc.sty
+(C:\Users\Hoa Loan\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.st
+y
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-(D:\Miktek\tex/generic/etexcmds\etexcmds.sty
+(C:\Users\Hoa Loan\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.
+sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
 \Hy@SavedSpaceFactor=\count303
 
-(D:\Miktek\tex/latex/hyperref\puenc.def
+(C:\Users\Hoa Loan\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
 File: puenc.def 2022-02-21 v7.00n Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
@@ -526,17 +546,19 @@ Package hyperref Info: Backreferencing OFF on input line 4157.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4390.
 \c@Hy@tempcnt=\count304
- (D:\Miktek\tex/latex/url\url.sty
+
+(C:\Users\Hoa Loan\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4749.
 \XeTeXLinkMargin=\dimen187
 
-(D:\Miktek\tex/generic/bitset\bitset.sty
+(C:\Users\Hoa Loan\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 
-(D:\Miktek\tex/generic/bigintcalc\bigintcalc.sty
+(C:\Users\Hoa Loan\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintc
+alc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
@@ -553,7 +575,8 @@ Package hyperref Info: PDF/A mode OFF on input line 6057.
 LaTeX Info: Redefining \ref on input line 6097.
 LaTeX Info: Redefining \pageref on input line 6101.
 
-(D:\Miktek\tex/latex/base\atbegshi-ltx.sty
+(C:\Users\Hoa Loan\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.st
+y
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
@@ -563,10 +586,11 @@ package with kernel methods
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
-(D:\Miktek\tex/latex/hyperref\hpdftex.def
+(C:\Users\Hoa Loan\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
 File: hpdftex.def 2022-02-21 v7.00n Hyperref driver for pdfTeX
 
-(D:\Miktek\tex/latex/base\atveryend-ltx.sty
+(C:\Users\Hoa Loan\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.s
+ty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
@@ -574,10 +598,12 @@ with kernel methods
 \Fld@listcount=\count309
 \c@bookmark@seq@number=\count310
 
-(D:\Miktek\tex/latex/rerunfilecheck\rerunfilecheck.sty
+(C:\Users\Hoa Loan\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerun
+filecheck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
 
-(D:\Miktek\tex/generic/uniquecounter\uniquecounter.sty
+(C:\Users\Hoa Loan\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniq
+uecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
@@ -587,7 +613,8 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 ) (titledot.sty
 Package: titledot 2009/07/10 v1.0 Vietnamese section
 
-(D:\Miktek\tex/latex/titlesec\titlesec.sty
+(C:\Users\Hoa Loan\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.st
+y
 Package: titlesec 2021/07/05 v2.14 Sectioning titles
 \ttl@box=\box59
 \beforetitleunit=\skip68
@@ -599,14 +626,15 @@ Package: titlesec 2021/07/05 v2.14 Sectioning titles
 \titlewidthlast=\dimen193
 \titlewidthfirst=\dimen194
 )
-(D:\Miktek\tex/latex/titlesec\titletoc.sty
+(C:\Users\Hoa Loan\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titletoc.st
+y
 Package: titletoc 2021/07/05 v2.14 TOC entries
 \ttl@leftsep=\dimen195
 ))
-(D:\Miktek\tex/latex/geometry\geometry.sty
+(C:\Users\Hoa Loan\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.st
+y
 Package: geometry 2020/01/02 v5.9 Page Geometry
-
-(D:\Miktek\tex/generic/iftex\ifvtex.sty
+ (C:\Users\Hoa Loan\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
 \Gm@cnth=\count311
@@ -622,14 +650,18 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layoutvoffset=\dimen259
 \Gm@dimlist=\toks39
 
-(D:\Miktek\tex/latex/geometry\geometry.cfg))
-(D:\Miktek\tex/latex/eso-pic\eso-pic.sty
+(C:\Users\Hoa Loan\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cf
+g))
+(C:\Users\Hoa Loan\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
 Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
 \ESO@tempdima=\dimen260
 \ESO@tempdimb=\dimen261
- (D:\Miktek\tex/latex/xcolor\xcolor.sty
+
+(C:\Users\Hoa Loan\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
-(D:\Miktek\tex/latex/graphics-cfg\color.cfg
+
+(C:\Users\Hoa Loan\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.c
+fg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 227.
@@ -642,8 +674,7 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
-))
-(D:\Miktek\tex/latex/tools\calc.sty
+)) (C:\Users\Hoa Loan\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count314
 \calc@Bcount=\count315
@@ -655,10 +686,11 @@ LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count316
 \calc@Cskip=\skip72
-) (D:\Miktek\tex/latex/base\makeidx.sty
+) (C:\Users\Hoa Loan\AppData\Local\Programs\MiKTeX\tex/latex/base\makeidx.sty
 Package: makeidx 2021/10/04 v1.0m Standard LaTeX package
 )
-(D:\Miktek\tex/latex/listings\listings.sty
+(C:\Users\Hoa Loan\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.st
+y
 \lst@mode=\count317
 \lst@gtempboxa=\box60
 \lst@token=\toks40
@@ -672,18 +704,20 @@ Package: makeidx 2021/10/04 v1.0m Standard LaTeX package
 \lst@lineno=\count322
 \lst@maxwidth=\dimen267
 
-(D:\Miktek\tex/latex/listings\lstmisc.sty
+(C:\Users\Hoa Loan\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
 \c@lstnumber=\count323
 \lst@skipnumbers=\count324
 \lst@framebox=\box61
 )
-(D:\Miktek\tex/latex/listings\listings.cfg
+(C:\Users\Hoa Loan\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cf
+g
 File: listings.cfg 2020/03/24 1.8d listings configuration
 ))
 Package: listings 2020/03/24 1.8d (Carsten Heinz)
 
-(D:\Miktek\tex/latex/listings\lstlang1.sty
+(C:\Users\Hoa Loan\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.st
+y
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
 \c@prof=\count325
@@ -693,7 +727,9 @@ File: lstlang1.sty 2020/03/24 1.8d listings language file
 
 
 Writing index file LuanVan.idx
-(D:\Miktek\tex/latex/l3backend\l3backend-pdftex.def
+
+(C:\Users\Hoa Loan\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-
+pdftex.def
 File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count327
 \l__pdf_internal_box=\box62
@@ -725,7 +761,9 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 176.
 LaTeX Font Info:    ... okay on input line 176.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 176.
 LaTeX Font Info:    ... okay on input line 176.
- (D:\Miktek\tex/context/base/mkii\supp-pdf.mkii
+
+(C:\Users\Hoa Loan\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf
+.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count328
 \scratchdimen=\dimen268
@@ -738,23 +776,28 @@ LaTeX Font Info:    ... okay on input line 176.
 \MPnumerator=\count332
 \makeMPintoPDFobject=\count333
 \everyMPtoPDFconversion=\toks42
-) (D:\Miktek\tex/latex/epstopdf-pkg\epstopdf-base.sty
+)
+(C:\Users\Hoa Loan\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopd
+f-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 
-(D:\Miktek\tex/latex/00miktex\epstopdf-sys.cfg
+(C:\Users\Hoa Loan\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sy
+s.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package hyperref Info: Link coloring OFF on input line 176.
 
-(D:\Miktek\tex/latex/hyperref\nameref.sty
+(C:\Users\Hoa Loan\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
-(D:\Miktek\tex/latex/refcount\refcount.sty
+(C:\Users\Hoa Loan\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.st
+y
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 )
-(D:\Miktek\tex/generic/gettitlestring\gettitlestring.sty
+(C:\Users\Hoa Loan\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\get
+titlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count334
@@ -762,8 +805,7 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 176.
 LaTeX Info: Redefining \pageref on input line 176.
 LaTeX Info: Redefining \nameref on input line 176.
- (LuanVan.out)
-(LuanVan.out)
+ (LuanVan.out) (LuanVan.out)
 \@outlinefile=\write4
 \openout4 = `LuanVan.out'.
 
@@ -806,7 +848,7 @@ LaTeX Info: Redefining \nameref on input line 176.
 (loicamdoan.tex) (loicamon.tex [1
 
 
-{C:/Users/Khanh/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]) [2
+{C:/Users/Hoa Loan/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]) [2
 
 ] (LuanVan.toc)
 \tf@toc=\write5
@@ -816,10 +858,17 @@ LaTeX Info: Redefining \nameref on input line 176.
 
 ] (loinoidau.tex [1
 
-]) (chuong1.tex
-[2]
+]) (chuong1.tex [2]
 Ch\uhorn \ohorn ng 1.
-) (tailieuthamkhao.tex [3
+[3
+
+] [4] [5]) (chuong2.tex [6]
+Ch\uhorn \ohorn ng 2.
+) (chuong3.tex [7
+
+]
+Ch\uhorn \ohorn ng 3.
+) (tailieuthamkhao.tex [8
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 3--5
@@ -827,7 +876,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--5
 r/m/n/14 , b¡o c¡o t¤i
  []
 
-) [4
+) [9
 
 ] (LuanVan.aux)
 
@@ -928,26 +977,33 @@ loicamdoan.tex
 loicamon.tex
 loinoidau.tex
  chuong1.tex
+ chuong2.tex
+ chuong3.tex
 tailieuthamkhao.tex
  ***********
 
 Package rerunfilecheck Info: File `LuanVan.out' has not changed.
-(rerunfilecheck)             Checksum: C6CF1C8820165372E4E7E3785756D360;1092.
+(rerunfilecheck)             Checksum: 17002B8BB0C599FB8FA34A85C49BEBD4;1695.
  ) 
 Here is how much of TeX's memory you used:
- 14726 strings out of 478582
- 220328 string characters out of 2860759
+ 14770 strings out of 478582
+ 229035 string characters out of 2842892
  702824 words of memory out of 3000000
- 32656 multiletter control sequences out of 15000+600000
- 479839 words of font info for 39 fonts, out of 8000000 for 9000
+ 32677 multiletter control sequences out of 15000+600000
+ 481154 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,5n,65p,1826b,401s stack positions out of 10000i,1000n,20000p,200000b,80000s
-<D:/Miktek/fonts/type1/vntex/vnr/vnbx12.pfb><D:/Miktek/fonts/type1/vntex/vnr/
-vnr10.pfb><D:/Miktek/fonts/type1/vntex/vnr/vnr12.pfb><D:/Miktek/fonts/type1/vnt
-ex/vnr/vnr9.pfb><D:/Miktek/fonts/type1/vntex/vnr/vnti12.pfb>
-Output written on LuanVan.pdf (7 pages, 91013 bytes).
+ <C:\Users\Hoa Loan\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\t
+crm1000.pk><C:/Users/Hoa Loan/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/v
+nr/vnbx10.pfb><C:/Users/Hoa Loan/AppData/Local/Programs/MiKTeX/fonts/type1/vnte
+x/vnr/vnbx12.pfb><C:/Users/Hoa Loan/AppData/Local/Programs/MiKTeX/fonts/type1/v
+ntex/vnr/vnr10.pfb><C:/Users/Hoa Loan/AppData/Local/Programs/MiKTeX/fonts/type1
+/vntex/vnr/vnr12.pfb><C:/Users/Hoa Loan/AppData/Local/Programs/MiKTeX/fonts/typ
+e1/vntex/vnr/vnr9.pfb><C:/Users/Hoa Loan/AppData/Local/Programs/MiKTeX/fonts/ty
+pe1/vntex/vnr/vnti12.pfb>
+Output written on LuanVan.pdf (12 pages, 135048 bytes).
 PDF statistics:
- 115 PDF objects out of 1000 (max. 8388607)
- 20 named destinations out of 1000 (max. 500000)
- 57 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 172 PDF objects out of 1000 (max. 8388607)
+ 35 named destinations out of 1000 (max. 500000)
+ 81 words of extra memory for PDF output out of 10000 (max. 10000000)
 
