@@ -1,5 +1,5 @@
 \documentclass[14pt, a4paper, reqno, oneside]{book}
-\usepackage{amssymb,latexsym,amscd,amsmath,amsfonts,enumerate,supertabular}
+\usepackage{amssymb,latexsym,amscd,amsmath,amsfonts,enumerate,supertabular,enumitem}
 \usepackage{amsmath,amsxtra,amssymb,latexsym, amscd,amsthm}
 
 \usepackage{subfigure}
@@ -13,7 +13,6 @@
 \usepackage{tabularx}
 \usepackage{epic, eepic}
 \usepackage{lineno}
-\usepackage{amssymb,latexsym,amscd,amsmath,amsfonts,enumerate,supertabular}
  \usepackage{array}
 \usepackage[mathscr]{eucal}
 %\usepackage{amsfonts}
@@ -46,10 +45,6 @@
 	breakatwhitespace=true,
 	tabsize=3
 }
-%\newtheorem{remark}{\bf Chú ý}[section]
-%\newtheorem{example1}{Ví dụ}[chapter]
-%\newtheorem{example2}{ Ví dụ}[chapter]
-%\newenvironment{example}{\begin{example1}}{\end{example1}}
 \newtheorem{prof}{}
 \newtheorem {theorem}{Định lý}[section]
 \newtheorem {corollary}[theorem]{Hệ quả}
@@ -151,6 +146,10 @@
 \def\lg{\textit{\textbf{Lời giải}}:}
 \def\vd{\textbf{Ví dụ}: }
 \def\kq{{{Kết quả:}}}
+
+\def\tenchuongi{\text{Khái quát về CNN và bài toán chuẩn đoán bệnh lao.}}
+\def\tenchuongii{\text{Một số mô hình hỗ trợ chuẩn đoán.}}
+\def\tenchuongiii{\text{Chương trình thử nghiệm.}}
 % Tự định nghĩa
 \DeclareMathOperator*{\argmin}{argmin}
 \DeclareMathOperator*{\argmax}{argmax}
@@ -197,11 +196,11 @@
 }
 \pagenumbering{arabic}
 \input{loinoidau}
-%\input {chuong1}
+\input {chuong1}
 %\input {chuong2}
 %\input {chuong3}
 %\input {ketluan}
-%\input {tailieuthamkhao}
+\input {tailieuthamkhao}
 
 \end{document}
 
