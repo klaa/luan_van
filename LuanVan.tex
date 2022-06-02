@@ -3,7 +3,7 @@
 \usepackage{amsmath,amsxtra,amssymb,latexsym, amscd,amsthm}
 
 \usepackage{subfigure}
-%\usepackage{mathrsfs}
+\usepackage{titlesec}
 \usepackage[usehighlevels]{alnumsec}
 \usepackage{indentfirst}
 \usepackage[utf8]{vietnam}
@@ -72,6 +72,13 @@
 \newenvironment{example3}[1][Ví dụ 3]{\begin{trivlist}
 \item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
 \newcommand{\dn}[1]{\frac{\partial #1}{\partial \nu }}
+
+\titleformat{\section}
+{\normalfont\bfseries}{\thesection.}{1em}{\fontsize 16}{}
+\titleformat{\subsection}
+{\normalfont\itshape}{\thesubsection.}{1em}{\fontsize 16}{}
+\titleformat{\subsubsection}
+{\normalfont\bfseries}{\thesubsubsection.}{1em}{\fontsize 14}{}
 
 \def\ba{\mathbf{a}}
 \def\bb{\mathbf{b}}
