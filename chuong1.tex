@@ -35,7 +35,7 @@ Sau đó vào năm 1998, mạng CNN được giới thiệu bởi Bengio, Le Cun
 \subsection{Kiến trúc mạng CNN}
 Mạng CNN có kiến trúc khác với Mạng Nơ-ron thông thường. Mạng ANN bình thường chuyển đổi đầu vào thông qua hàng loạt các tầng ẩn. Mỗi tầng là một tập các nơ-ron và các tầng được liên kết đầy đủ với các nơ-ron ở tầng trước đó. Và ở tầng cuối cùng sẽ là tầng kết quả đại diện cho dự đoán của mạng.
 
-Đầu tiên, mạng CNN được chia thành 3 chiều: rộng, cao, và sâu. Kế đên, các nơ ron trong mạng không liên kết hoàn toàn với toàn bộ nơ-ron kế đến nhưng chỉ liên kết tới một vùng nhỏ. Cuối cùng, một tầng đầu ra được tối giản thành véc-tơ của giá trị xác suất (hình \ref{fig:neuronnetwork}).
+Đầu tiên, mạng CNN được chia thành 3 chiều: rộng, cao, và sâu. Kế đến, các nơ ron trong mạng không liên kết hoàn toàn với toàn bộ nơ-ron lớp sau mà chỉ liên kết tới một vùng nhỏ. Cuối cùng, một tầng đầu ra được tối giản thành véc-tơ của giá trị xác suất (hình \ref{fig:neuronnetwork}).
 
 \begin{figure}[H]
 	\centering
@@ -109,5 +109,13 @@ Kết quả thu được cuối cùng cũng sẽ là một véc-tơ với các g
 	\caption{Lớp kết nối đầy đủ}
 \end{figure}
 
-\subsection{Ứng dụng CNN trong phân loại ảnh}
+\subsubsection{Ứng dụng CNN trong phân loại ảnh}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\linewidth]{images/placnn.png}
+	\caption{Max pooling kích thước 2×2}
+	\label{fig:placnn}
+\end{figure}
+Các bước để thực hiện phân loại hình ảnh dựa trên mạng CNN được mô tả trong Hình \ref{fig:placnn}. Đầu tiên, kho dữ liệu ảnh đầu vào được nạp. Ảnh này được chia làm hai phần, một phần dành cho luyện mạng và một phần cho kiểm tra. Trước tiên, ta phải lựa chọn cấu trúc mạng CNN bao gồm số lượng lớp ẩn, các tham số trong mỗi lớp ẩn như kích thước trường tiếp nhận cục bộ, stride, padding.  Ảnh luyện mạng sau đó được đưa vào lớp chập 1 để thực hiện tích chập trên ảnh và thực hiện hàm ReLU. Sau đó, kết quả được đưa đến quá trình thực hiện pooling với tham số pooling size phù hợp để giảm kích cỡ ảnh. Ảnh sẽ tiếp tục được đưa thêm qua các lớp tích chập nữa cho đến khi đạt được kết quả mong muốn. Kết quả này được dàn phẳng và đưa vào lớp kết nối đầy đủ. Cuối cùng là quá trình thực hiện các activation function và phân loại ảnh. Quá trình luyện mạng sẽ kết thúc sau khi tổng sai số nhỏ hơn một ngưỡng cho phép hoặc sau một số thế hệ cho trước (điều kiện hội tụ). Kết thúc của quá trình luyện mạng là cấu trúc mạng CNN với các tham số phù hợp. Để kiểm tra, các mẫu ảnh kiểm tra được đưa qua mạng CNN rồi thực hiện đánh giá sai số.
 
+\subsection{Xây dựng mạng CNN cho phân loại ảnh} 
