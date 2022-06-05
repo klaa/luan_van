@@ -7,7 +7,7 @@
 %===================================================================
 \section{Khái quát về CNN}
 \subsection{Giới thiệu}
-Tương tự như việc trẻ em học cách nhận diện đối tượng, chúng ta cần cho thuật toán học rất nhiều hình ảnh trước khi nó có thể đưa ra phân loại cho hình ảnh đầu vào mà nó chưa từng thấy \cite{ntt8b3}.
+Tương tự như việc trẻ em học cách nhận diện đối tượng, chúng ta cần cho thuật toán học rất nhiều hình ảnh trước khi nó có thể đưa ra phân loại cho hình ảnh đầu vào mà nó chưa từng thấy \cite{ntt}.
 
 \begin{figure}[H]
 	\centering
@@ -22,7 +22,7 @@ Mặc dù máy tính nhìn nhận theo cách khác con người, chúng ta vẫn
 
 Để dạy thuật toán nhận diện đối tượng trong hình ảnh, ta sử dụng một loại mạng ANN, đó là CNN. Tên của nó được dựa trên phép tính quan trọng được sử dụng trong mạng- tích chập.
 
-Mạng CNN lấy cảm hứng từ não người. Nghiên cứu trong những thập niên 1950 và 1960 của D.H Hubel và T.N Wiesel trên não của động vật đã đề xuất một mô hình mới cho việc cách mà động vật nhìn nhận thế giới. Trong báo cáo, hai ông đã diễn tả 2 loại tế bào nơ-ron trong não và cách hoạt động khác nhau: tế bào đơn giản (simple cell – S cell) và tế bào phức tạp (complex cell – C cell). 
+Mạng CNN lấy cảm hứng từ não người \cite{cnnhumanbrain}. Nghiên cứu trong những thập niên 1950 và 1960 của D.H Hubel và T.N Wiesel trên não của động vật đã đề xuất một mô hình mới cho việc cách mà động vật nhìn nhận thế giới. Trong báo cáo, hai ông đã diễn tả 2 loại tế bào nơ-ron trong não và cách hoạt động khác nhau: tế bào đơn giản (simple cell – S cell) và tế bào phức tạp (complex cell – C cell). 
 
 Các tế bào đơn giản được kích hoạt khi nhận diện các hình dáng đơn dản như đường nằm trong một khu vực cố định và một góc cạnh của nó. Các tế bào phức tạp có vùng tiếp nhận lơn hơn và đầu ra của nó không nhạy cảm với những vị trí cố định trong vùng. 
 
@@ -35,7 +35,7 @@ Sau đó vào năm 1998, mạng CNN được giới thiệu bởi Bengio, Le Cun
 \subsection{Kiến trúc mạng CNN}
 Mạng CNN có kiến trúc khác với Mạng Nơ-ron thông thường. Mạng ANN bình thường chuyển đổi đầu vào thông qua hàng loạt các tầng ẩn. Mỗi tầng là một tập các nơ-ron và các tầng được liên kết đầy đủ với các nơ-ron ở tầng trước đó. Và ở tầng cuối cùng sẽ là tầng kết quả đại diện cho dự đoán của mạng.
 
-Đầu tiên, mạng CNN được chia thành 3 chiều: rộng, cao, và sâu. Kế đến, các nơ ron trong mạng không liên kết hoàn toàn với toàn bộ nơ-ron lớp sau mà chỉ liên kết tới một vùng nhỏ. Cuối cùng, một tầng đầu ra được tối giản thành véc-tơ của giá trị xác suất (hình \ref{fig:neuronnetwork}).
+Đầu tiên, mạng CNN được chia thành 3 chiều: rộng, cao, và sâu. Kế đến, các neuron trong mạng không liên kết hoàn toàn với toàn bộ nơ-ron lớp sau mà chỉ liên kết tới một vùng nhỏ. Cuối cùng, một tầng đầu ra được tối giản thành véc-tơ của giá trị xác suất (hình \ref{fig:neuronnetwork}).
 
 \begin{figure}[H]
 	\centering
@@ -138,7 +138,7 @@ vào đó, chúng ta chỉ kết nối trong phạm vi nhỏ, các vùng cục b
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.5\linewidth]{images/lopinput.png}
-	\caption{Lớp input gồm 28x28 nơ ron cho nhận dạng chữ từ tập dữ liệu MNIST}
+	\caption{Lớp input gồm 28x28 neuron cho nhận dạng chữ từ tập dữ liệu MNIST}
 	\label{fig:lopinput}
 \end{figure}
 Để được chính xác hơn, mỗi nơron trong lớp ẩn đầu tiên sẽ được kết nối với 
@@ -146,7 +146,7 @@ một vùng nhỏ của các nơron đầu vào, ví dụ, một vùng 5 × 5, t
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.6\linewidth]{images/ketnoivung.png}
-	\caption{Kết nối vùng 5x5 neuron input với nơ ron lớp ẩn}
+	\caption{Kết nối vùng 5x5 neuron input với neuron lớp ẩn}
 	\label{fig:ketnoivung}
 \end{figure}
 Vùng đó trong bức ảnh đầu vào được gọi là vùng tiếp nhận cục bộ cho nơron 
@@ -246,3 +246,24 @@ Hiệu quả hoạt động của mạng CNN phụ thuộc rất nhiều vào vi
 Trong thực tế, tùy vào ứng dụng cụ thể mà ta chọn các tham số khác nhau. Thông thường ta sẽ thực hiện nhiều lần việc train test để chọn ra được param tốt nhất (Phương pháp thử sai).
 
 \section{Bài toán chuẩn đoán bệnh lao}
+Để chuẩn đoán được bệnh lao cần dựa vào rất nhiều dữ liệu \cite{bytchuandoanlao} như: 
+\begin{itemize}
+	\item {\bfseries Lâm sàng}
+	\begin{itemize}
+		\item {\bfseries Toàn thân:} Sốt nhẹ về chiều, ra mồ hôi đêm, chán ăn, mệt mỏi, gầy sút cân.
+		\item {\bfseries Cơ năng:} Ho, khạc đờm, ho ra máu, đau ngực, khó thở.
+		\item {\bfseries Thực thể:} Nghe phổi có thể có tiếng bệnh lý (ran ẩm, ran nổ,....).
+	\end{itemize}
+	\item {\bfseries Cận lâm sàng}
+	\begin{itemize}
+		\item Nhuộm soi đờm trực tiếp tìm AFB.
+		\item Xét nghiệm Xpert MTB/RIF (nếu có thể).
+		\item Nuôi cấy tìm vi khuẩn lao.
+		\item X-Quang phổi thường quy.
+	\end{itemize}
+\end{itemize}
+
+Tuy vậy, do mục tiêu, đối tượng nghiên cứu, phạm vi nghiên cứu, luận văn chỉ nghiên cứu hỗ trợ chuẩn đoán bệnh lao qua các hình ảnh x-quang phổi thường quy dựa vào học máy.
+
+\subsection{Mô tả bài toán}
+Ta có tập dữ liệu 
