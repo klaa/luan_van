@@ -17,7 +17,8 @@
 \contentsline {subsubsection}{\numberline {1.1.4.3}Lớp chứa hay lớp tổng hợp (Pooling layer)}{15}{subsubsection.1.1.4.3}%
 \contentsline {subsubsection}{\numberline {1.1.4.4}Cách chọn tham số cho CNN}{18}{subsubsection.1.1.4.4}%
 \contentsline {section}{\numberline {1.2}Bài toán chuẩn đoán bệnh lao}{18}{section.1.2}%
-\contentsline {chapter}{\numberline {2}\text {Một số mô hình hỗ trợ chuẩn đoán.}}{19}{chapter.2}%
-\contentsline {chapter}{\numberline {3}\text {Chương trình thử nghiệm.}}{20}{chapter.3}%
-\contentsline {chapter}{Tài liệu tham khảo}{20}{chapter.3}%
+\contentsline {subsection}{\numberline {1.2.1}Mô tả bài toán}{19}{subsection.1.2.1}%
+\contentsline {chapter}{\numberline {2}\text {Một số mô hình hỗ trợ chuẩn đoán.}}{20}{chapter.2}%
+\contentsline {chapter}{\numberline {3}\text {Chương trình thử nghiệm.}}{21}{chapter.3}%
+\contentsline {chapter}{Tài liệu tham khảo}{21}{chapter.3}%
 \contentsfinish 
