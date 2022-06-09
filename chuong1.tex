@@ -20,7 +20,9 @@ Máy tính “nhìn” theo cách khác con người. Trong thế giới máy t�
 
 Mặc dù máy tính nhìn nhận theo cách khác con người, chúng ta vẫn có thể dạy máy tính nhận diện các mẫu như con người. Điều quan trọng là chúng ta cần nghĩ về hình ảnh theo một cách khác đi.
 
-Để dạy thuật toán nhận diện đối tượng trong hình ảnh, ta sử dụng một loại mạng ANN, đó là CNN. Tên của nó được dựa trên phép tính quan trọng được sử dụng trong mạng- tích chập.
+Để dạy thuật toán nhận diện đối tượng trong hình ảnh, ta sử dụng một loại mạng ANN, đó là Convolutional Neural Networks (CNN). Tên của nó được dựa trên phép tính quan trọng được sử dụng trong mạng- tích chập.
+
+Convolutional Neural Networks (CNN) là một trong những mô hình deep learning phổ biến nhất và có ảnh hưởng nhiều nhất trong cộng đồng Computer Vision. CNN được dùng trong trong nhiều bài toán như nhân dạng ảnh, phân tích video, ảnh MRI, hoặc cho bài các bài của lĩnh vự xử lý ngôn ngữ tự nhiên, và hầu hết đều giải quyết tốt các bài toán này.
 
 Mạng CNN lấy cảm hứng từ não người \cite{cnnhumanbrain}. Nghiên cứu trong những thập niên 1950 và 1960 của D.H Hubel và T.N Wiesel trên não của động vật đã đề xuất một mô hình mới cho việc cách mà động vật nhìn nhận thế giới. Trong báo cáo, hai ông đã diễn tả 2 loại tế bào nơ-ron trong não và cách hoạt động khác nhau: tế bào đơn giản (simple cell – S cell) và tế bào phức tạp (complex cell – C cell). 
 
@@ -263,7 +265,16 @@ Trong thực tế, tùy vào ứng dụng cụ thể mà ta chọn các tham s�
 	\end{itemize}
 \end{itemize}
 
-Tuy vậy, do mục tiêu, đối tượng nghiên cứu, phạm vi nghiên cứu, luận văn chỉ nghiên cứu hỗ trợ chuẩn đoán bệnh lao qua các hình ảnh x-quang phổi thường quy dựa vào học máy.
+Tuy vậy, do mục tiêu, đối tượng nghiên cứu, phạm vi nghiên cứu, nên luận văn chỉ tập trung nghiên cứu hỗ trợ chuẩn đoán bệnh lao qua các hình ảnh x-quang phổi thường quy dựa vào học máy, học sâu.
 
 \subsection{Mô tả bài toán}
-Ta có tập dữ liệu với 3500 ảnh của người không có lao và 700 ảnh của người có lao, kích thước 512x512 định dạng PNG.
+Ta có tập dữ liệu với 3500 ảnh của người không có lao và 700 ảnh của người có lao đã được gán nhãn. Mỗi hình ảnh có kích thước 512 x 512 định dạng PNG như hình \ref{fig:normalimg}.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.55\linewidth]{images/Normal-1.png}
+	\caption{Ảnh chụp x-quang của người không có lao}
+	\label{fig:normalimg}
+\end{figure}
+Tập dữ liệu trên được một nhóm các nhà nghiên cứu từ Đại học Qatar, Doha, và Đại học Dhaka, Bangladesh cùng với các cộng tác viên của họ từ Malaysia phối hợp với các bác sĩ từ Hamad Medical Corporation và Bangladesh đã tạo ra một cơ sở dữ liệu về hình ảnh X-quang phổi cho người có lao cùng với hình ảnh người không có lao \cite{dataset}. Dữ liệu trên được cung cấp miễn phí tại \href{https://www.kaggle.com/datasets/tawsifurrahman/tuberculosis-tb-chest-xray-dataset}{https://www.kaggle.com/datasets/tawsifurrahman/tuberculosis-tb-chest-xray-dataset}.
+
+Từ tập dữ liệu trên, ta tách riêng biệt 100 ảnh ngẫu nhiên từ cả 2 nhãn để làm dữ liệu đánh giá. 4100 ảnh còn lại sẽ được dùng để huấn luyện các mô hình học sâu của luận văn. Sau khi hoàn thành quá trình huấn luyện, ta sẽ dùng dữ liệu đánh giá riêng biệt (100 ảnh đã tách riêng) để các mô hình phân loại, dự đoán về khả năng ảnh x-quang đó là của người có lao hay không. Do đã được gán nhãn đầy đủ, ta có thể lấy xác định được độ chính xác của mô hình đối với tập dữ liệu trên.
