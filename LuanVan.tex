@@ -1,5 +1,5 @@
 \documentclass[14pt, a4paper, reqno, oneside]{book}
-\usepackage{amssymb,latexsym,amscd,amsmath,amsfonts,enumerate,supertabular,enumitem}
+\usepackage{amssymb,latexsym,amscd,amsmath,amsfonts,enumerate,supertabular,enumitem,fancyhdr}
 \usepackage{amsmath,amsxtra,amssymb,latexsym, amscd,amsthm}
 
 \usepackage{subfigure}
@@ -18,7 +18,7 @@
 %\usepackage{amsfonts}
 \usepackage[unicode]{hyperref}
 \usepackage{titledot}
-\usepackage[top=2cm, bottom=2cm, left=3cm, right=2cm] {geometry}
+\usepackage[top=3cm, bottom=3cm, left=3.5cm, right=2cm] {geometry}
 \usepackage{eso-pic,calc}
 \usepackage{makeidx}
 \usepackage{float}
@@ -162,6 +162,12 @@
 \DeclareMathOperator*{\argmin}{argmin}
 \DeclareMathOperator*{\argmax}{argmax}
 
+\fancypagestyle{danh_trang_tren_header}{%
+	\fancyhf{}
+	\fancyhead[C]{\thepage}
+	\renewcommand{\headrulewidth}{0.3pt}
+}
+
 \newcommand{\chapnum}[1]{\centering{CHƯƠNG #1}}
 \makeatletter
 \def\@makechapterhead#1{%
@@ -183,12 +189,9 @@
 \begin{document}
 \large
 %+============================================================================
-
-\fontsize{14pt}{25pt}\selectfont
 \newpage
-
-\pagestyle{plain}
-
+\pagestyle{danh_trang_tren_header}
+\fontsize{14pt}{25pt}\selectfont
 \pagenumbering{roman}
 {
 \input {loicamdoan}
