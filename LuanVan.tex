@@ -168,8 +168,6 @@
 	\renewcommand{\headrulewidth}{0.3pt}
 }
 
-\pagestyle{danh_trang_tren_header}
-
 \newcommand{\chapnum}[1]{\centering{CHƯƠNG #1}}
 \makeatletter
 \def\@makechapterhead#1{%
@@ -191,10 +189,9 @@
 \begin{document}
 \large
 %+============================================================================
-
-\fontsize{14pt}{25pt}\selectfont
 \newpage
-
+\pagestyle{danh_trang_tren_header}
+\fontsize{14pt}{25pt}\selectfont
 \pagenumbering{roman}
 {
 \input {loicamdoan}
