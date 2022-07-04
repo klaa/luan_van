@@ -29,30 +29,15 @@ Các chồng lớp chập trùng được theo sau bởi ba lớp được kết
 	\label{fig:vgg16_imagenet_detail}
 \end{figure}
 
-\subsection{Trường hợp sử dụng VGG16}
-VGG16 khiến các nhà khoa học và nghiên cứu dữ liệu trên toàn thế giới quan tâm mặc dù sự ra đời của nhiều mô hình tính điểm mới và tốt hơn kể từ thời điểm VGG ban đầu được đề xuất. Dưới đây là một số trường hợp sử dụng mà bạn có thể thấy VGG16 được sử dụng thực tế:
-\begin{enumerate}
-	\item Nhận dạng hoặc phân loại hình ảnh - VGG16 có thể được sử dụng để chẩn đoán bệnh bằng hình ảnh y tế như X-quang hoặc MRI. Nó cũng có thể được sử dụng để nhận biết các biển báo đường phố từ một phương tiện đang di chuyển.
-	\item Phát hiện và bản địa hóa hình ảnh - VGG16 có thể hoạt động thực sự tốt trong các trường hợp sử dụng phát hiện hình ảnh. Trên thực tế, nó đã là người chiến thắng trong thử thách phát hiện ImageNet vào năm 2014 (nơi nó kết thúc với vị trí á quân đầu tiên cho thử thách phân loại)
-	\item Vectơ nhúng hình ảnh - Sau khi bật ra lớp đầu ra trên cùng, mô hình có thể được sử dụng để đào tạo để tạo vectơ nhúng hình ảnh có thể được sử dụng cho một vấn đề như xác minh khuôn mặt bằng cách sử dụng VGG16 bên trong mạng Siamese.
-\end{enumerate}
+%\subsection{Trường hợp sử dụng VGG16}
+%VGG16 khiến các nhà khoa học và nghiên cứu dữ liệu trên toàn thế giới quan tâm mặc dù sự ra đời của nhiều mô hình tính điểm mới và tốt hơn kể từ thời điểm VGG ban đầu được đề xuất. Dưới đây là một số trường hợp sử dụng mà bạn có thể thấy VGG16 được sử dụng thực tế:
+%\begin{enumerate}
+%	\item Nhận dạng hoặc phân loại hình ảnh - VGG16 có thể được sử dụng để chẩn đoán bệnh bằng hình ảnh y tế như X-quang hoặc MRI. Nó cũng có thể được sử dụng để nhận biết các biển báo đường phố từ một phương tiện đang di chuyển.
+%	\item Phát hiện và bản địa hóa hình ảnh - VGG16 có thể hoạt động thực sự tốt trong các trường hợp sử dụng phát hiện hình ảnh. Trên thực tế, nó đã là người chiến thắng trong thử thách phát hiện ImageNet vào năm 2014 (nơi nó kết thúc với vị trí á quân đầu tiên cho thử thách phân loại)
+%	\item Vectơ nhúng hình ảnh - Sau khi bật ra lớp đầu ra trên cùng, mô hình có thể được sử dụng để đào tạo để tạo vectơ nhúng hình ảnh có thể được sử dụng cho một vấn đề như xác minh khuôn mặt bằng cách sử dụng VGG16 bên trong mạng Siamese.
+%\end{enumerate}
+
+\subsection{Cài đặt VGG16}
+\input{code_vgg16}
 
 \subsection{Áp dụng VGG16 vào bài toán của luận văn}
-Có hai điểm khác biệt của tập dữ liệu ImageNet và tập dữ liệu được sử dụng trong bài toán của luận văn \cite{dataset} đó là:
-\begin{itemize}
-	\item Kích thước ảnh đầu vào là 512x512 pixel thay vì 224x224 pixel và ảnh đầu vào là ảnh đa mức xám thay vì ảnh RGB.
-	\item Chỉ có 2 lớp đầu ra: Có lao hay không có lao.
-\end{itemize}
-
-Điều này dẫn tới 1 chút thay đổi nhỏ trong cấu hình của mô hình VGG16 cho bài toán này (hình \ref{fig:vgg16_luanvan}):
-\begin{itemize}
-	\item Ảnh đầu vào 512x512x1
-	\item Lớp Fully Connected thay đổi lần lượt là 512 và 256
-	\item Vì chỉ có 2 lớp đầu ra nên neural đầu ra là 1, hàm kích hoạt là sigmoid. 
-\end{itemize}
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=1\linewidth]{images/vgg16_luanvan}
-	\caption{Kiến trúc VGG16 cho bài toán của luận văn.}
-	\label{fig:vgg16_luanvan}
-\end{figure}

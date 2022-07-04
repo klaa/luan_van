@@ -9,13 +9,44 @@ DenseNet - Dense Convolutional Network (Mạng Tích chập Kết nối Dày đ�
 	\label{fig:kien_truc_densenet}
 \end{figure} 
 
-Xét một hình ảnh $x_0$ duy nhất được truyền qua một mạng tích chập. Mạng bao gồm $L$ lớp, mỗi lớp thực hiện một phép biến đổi phi tuyến tính $H_l$(·), trong đó $l$ là chỉ mục các lớp. $H_l$(·) có thể là một hàm tổng hợp của các hoạt động như Batch Normalization (BN), lớp ReLU, lớp Pooling, hoặc lớp Convolution (Conv). chúng tôi biểu thị đầu ra của lớp thứ $l$ như là $x_l$.\\
+Xét một hình ảnh $x_0$ duy nhất được truyền qua một mạng tích chập. Mạng bao gồm $L$ lớp, mỗi lớp thực hiện một phép biến đổi phi tuyến tính $H_l$(·), trong đó $l$ là chỉ mục các lớp. $H_l$(·) có thể là một hàm tổng hợp của các hoạt động như Batch Normalization (BN), lớp ReLU, lớp Pooling, hoặc lớp Convolution (Conv). DenseNet biểu thị đầu ra của lớp thứ $l$ như là $x_l$.\\
 {\bf Kết nối dày đặc - Dense connectivity}
-Để cải thiện hơn nữa luồng thông tin giữa các lớp, chúng tôi đề xuất một mô hình kết nối khác: chúng tôi giới thiệu các kết nối trực tiếp từ bất kỳ lớp nào đến tất cả các lớp tiếp theo. Hình \ref{fig:kien_truc_densenet} minh họa bố trí kiến trúc của DenseNet. Dễ dàng nhìn thấy, lớp thứ $l$ nhận được các bản đồ đặc trưng của tất cả các lớp trước đó, $x_0, x_1, x_2, . . . , x_{l-1}),$ làm đầu vào:
+Để cải thiện hơn nữa luồng thông tin giữa các lớp, DenseNet đề xuất một mô hình kết nối mà từ bất kỳ lớp nào cũng có thể kết nối đến tất cả các lớp tiếp theo. Hình \ref{fig:kien_truc_densenet} minh họa bố trí kiến trúc của DenseNet. Dễ dàng nhìn thấy, lớp thứ $l$ nhận được các bản đồ đặc trưng của tất cả các lớp trước đó, $x_0, x_1, x_2, . . . , x_{l-1}),$ làm đầu vào:
 \begin{equation}\label{eq:denseconnectivity}
 	x_l = H_l([x_0, x_1, . . . , x_{l-1}])
 \end{equation}
-với $[x_0, x_1, . . . , x{l-1}]$ đề cập đến việc nối các trích chọn đặc trưng được tạo thành trong các lớp $0, 1, ..., {l-1}$. Do khả năng kết nối dày đặc của nó, chúng tôi gọi kiến trúc mạng này là Mạng kết nối dày đặc (DenseNet). Để dễ thực hiện, chúng tôi nối nhiều đầu vào của $H_l$(·) trong phương trình \ref{eq:denseconnectivity} thành một tensor duy nhất.\\
+với $[x_0, x_1, . . . , x{l-1}]$ đề cập đến việc nối các trích chọn đặc trưng được tạo thành trong các lớp $0, 1, ..., {l-1}$. Do khả năng kết nối dày đặc của nó, Gao Huang\cite{densenet} gọi kiến trúc mạng này là Mạng kết nối dày đặc (DenseNet). Để dễ thực hiện, DenseNet nối nhiều đầu vào của $H_l$(·) trong phương trình \ref{eq:denseconnectivity} thành một tensor duy nhất.\\
 {\bf Hàm tổng hợp - Composite function}
-chúng tôi định nghĩa $H_l$(·) là một hàm tổng hợp của ba hoạt động liên tiếp: Batch Normalization (BN), tiếp theo là một hàm tinh chỉnh các đơn vị tuyến tính (ReLU) và một tích chập 3 × 3 (Conv).\\
+Ta định nghĩa $H_l$(·) là một hàm tổng hợp của ba hoạt động liên tiếp: Batch Normalization (BN), tiếp theo là một hàm tinh chỉnh các đơn vị tuyến tính (ReLU) và một tích chập 3 × 3 (Conv).\\
 {\bf Tầng hợp nhất - Pooling layers}
+Thao tác nối được sử dụng trong Phương trình \ref{eq:denseconnectivity} không khả thi khi kích thước của bản đồ đối tượng thay đổi. Tuy nhiên, một phần thiết yếu của mạng tích chập là các lớp lấy mẫu xuống làm thay đổi kích thước của bản đồ đối tượng. Để tạo điều kiện thuận lợi cho việc giảm tần số lấy mẫu trong kiến trúc, DenseNet chia mạng thành nhiều khối dày đặc được kết nối với nhau(hình \ref{fig:densenet_3blk}). DensetNet đề cập đến các lớp giữa các khối là các lớp chuyển tiếp, các lớp này thực hiện tích chập và tổng hợp. Các lớp chuyển tiếp được sử dụng trong các cấu trúc DenseNet bao gồm lớp chuẩn hóa hàng loạt và lớp tích chập 1 × 1, tiếp theo là lớp gộp trung bình 2 × 2.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{images/densenet_3blk}
+	\caption{Một DenseNet sâu với ba khối dày đặc.}
+	\label{fig:densenet_3blk}
+\end{figure}
+{\bf Tỉ lệ phát triển - Growth rate}
+Nếu mỗi hàm $H_l$ tạo ra $k$ bản đồ đặc trưng, thì lớp thứ $l$ có $k_0 + k{l-1}$ bản đồ đặc trưng đầu vào, trong đó $k_0$ là số kênh trong lớp đầu vào. Một điểm khác biệt quan trọng giữa DenseNet và các kiến trúc mạng trước đó là DenseNet có thể có các lớp rất hẹp, ví dụ: $k = 12$. Ta gọi siêu tham số $k$ là tỉ lệ phát triển của mạng. Tỉ lệ phát triển quy định lượng thông tin mới mà mỗi lớp đóng góp vào trạng thái toàn cục. Trạng thái toàn cục, sau khi được lưu trữ, có thể được truy cập từ mọi nơi trong mạng mà không cần phải sao chép nó từ lớp này sang lớp khác - không giống như trong các kiến trúc mạng truyền thống.\\
+{\bf Các lớp nút cổ chai - Bottleneck layers}
+Mặc dù mỗi lớp chỉ tạo ra $k$ bản đồ đặc trưng đầu ra, nhưng nó thường có nhiều đầu vào hơn. Người ta lưu ý rằng tích chập 1 × 1 có thể được đưa vào làm lớp nút cổ chai trước mỗi tích chập 3 × 3 để giảm số lượng bản đồ đặc trưng đầu vào và từ đó để cải thiện hiệu quả tính toán. Thiết kế này đặc biệt hiệu quả đối với DenseNet.\\
+{\bf Độ nén - Compression}
+Để cải thiện hơn nữa độ nhỏ gọn của mô hình, chúng ta có thể giảm số lượng bản đồ đặc trưng ở các lớp chuyển tiếp. Nếu một khối dày đặc chứa $m$ bản đồ đặc trưng, để lớp chuyển tiếp sau tạo ra $\theta m$ bản đồ đặc trưng đầu ra, trong đó $0 < \theta \leq 1$ được gọi là hệ số nén. Khi $\theta = 1$, số lượng bản đồ đối tượng trên các lớp chuyển tiếp không thay đổi.
+
+\subsection{Kiến trúc của DenseNet}
+Từ hình \ref{fig:densenet_3blk}, có thể nhận thấy rằng DenseNets được chia thành nhiều khối dày đặc DenseBlock. Các kiến trúc khác nhau của DenseNets đã được tóm tắt trong bài báo "Densely Connected Convolutional Networks"\cite{densenet}. 
+
+Mỗi kiến trúc bao gồm bốn DenseBlock với số lượng lớp khác nhau. Ví dụ, DenseNet-121 có [6,12,24,16] lớp trong bốn khối dày đặc trong khi DenseNet-169 có [6, 12, 32, 32] lớp. Chúng ta có thể thấy rằng phần đầu tiên của kiến trúc DenseNet bao gồm Lớp chuyển đổi 2 bước 7x7, tiếp theo là lớp MaxPooling 3x3 bước-2. Và khối dày đặc thứ tư được theo sau bởi một Lớp phân loại chấp nhận các bản đồ đặc trưng của tất cả các lớp của mạng để thực hiện phân loại. 
+
+Ngoài ra, các phép toán tích chập bên trong mỗi kiến trúc là các lớp Cổ chai. Điều này có nghĩa là Conv 1x1 làm giảm số lượng kênh trong đầu vào và Conv 3x3 thực hiện hoạt động tích chập trên phiên bản đã biến đổi của đầu vào với số lượng kênh giảm hơn so với đầu vào.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{images/densenet_archtectures_for_imagenet}
+	\caption{Các kiến trúc DenseNet.}
+	\label{fig:densenet_archtectures_for_imagenet}
+\end{figure}
+
+\subsection{Cài đặt DenseNet}
+\input{code_densenet121}
+
+\subsection{Áp dụng DenseNet vào bài toán của luận văn}
