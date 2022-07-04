@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.5)  3 JUL 2022 23:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.5)  4 JUL 2022 17:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -932,18 +932,18 @@ Package hyperref Info: Link coloring OFF on input line 189.
 {C:/Users/Nguyen Huu Khanh/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]) 
 [2
 
-] (LuanVan.toc)
+] (LuanVan.toc [3
+
+])
 \tf@toc=\write5
 \openout5 = `LuanVan.toc'.
 
- [3
+ [4] (loinoidau.tex
+[1
 
-] (loinoidau.tex [1
-
-]
-[2]) (chuong1.tex [3]
+] [2]) (chuong1.tex [3]
 Ch\uhorn \ohorn ng 1.
-<images/how_computer_see_image.png, id=178, 757.83125pt x 334.24875pt>
+<images/how_computer_see_image.png, id=219, 757.83125pt x 334.24875pt>
 File: images/how_computer_see_image.png Graphic file (type png)
 <use images/how_computer_see_image.png>
 Package pdftex.def Info: images/how_computer_see_image.png  used on input line 
@@ -959,12 +959,12 @@ has been already used, duplicate ignored
 l.25 C
       onvolutional Neural Networks (CNN) là một trong những mô hình d...
  <./images/how_computer_see_image.png>] [5]
-<images/neuronnetwork.png, id=195, 691.83469pt x 267.24844pt>
+<images/neuronnetwork.png, id=235, 691.83469pt x 267.24844pt>
 File: images/neuronnetwork.png Graphic file (type png)
 <use images/neuronnetwork.png>
 Package pdftex.def Info: images/neuronnetwork.png  used on input line 44.
 (pdftex.def)             Requested size: 441.01773pt x 170.36148pt.
-<images/kientruccnn.png, id=197, 819.06pt x 287.57437pt>
+<images/kientruccnn.png, id=237, 819.06pt x 287.57437pt>
 File: images/kientruccnn.png Graphic file (type png)
 <use images/kientruccnn.png>
 Package pdftex.def Info: images/kientruccnn.png  used on input line 56.
@@ -976,7 +976,7 @@ has been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.59 \end{figure}
                   <./images/neuronnetwork.png>]
-<images/padding18.png, id=205, 524.71031pt x 224.33812pt>
+<images/padding18.png, id=245, 524.71031pt x 224.33812pt>
 File: images/padding18.png Graphic file (type png)
 <use images/padding18.png>
 Package pdftex.def Info: images/padding18.png  used on input line 71.
@@ -994,7 +994,7 @@ has been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.87 
       <./images/padding18.png>]
-<images/maxpooling22.png, id=223, 587.94656pt x 285.31593pt>
+<images/maxpooling22.png, id=263, 587.94656pt x 285.31593pt>
 File: images/maxpooling22.png Graphic file (type png)
 <use images/maxpooling22.png>
 Package pdftex.def Info: images/maxpooling22.png  used on input line 96.
@@ -1006,12 +1006,12 @@ has been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.105 
        <./images/maxpooling22.png>]
-<images/fullyconnected.png, id=233, 553.31718pt x 274.77657pt>
+<images/fullyconnected.png, id=274, 553.31718pt x 274.77657pt>
 File: images/fullyconnected.png Graphic file (type png)
 <use images/fullyconnected.png>
 Package pdftex.def Info: images/fullyconnected.png  used on input line 110.
 (pdftex.def)             Requested size: 352.81552pt x 175.20651pt.
-<images/placnn.png, id=234, 277.035pt x 453.19313pt>
+<images/placnn.png, id=275, 277.035pt x 453.19313pt>
 File: images/placnn.png Graphic file (type png)
 <use images/placnn.png>
 Package pdftex.def Info: images/placnn.png  used on input line 117.
@@ -1030,12 +1030,12 @@ has been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.122 
        <./images/placnn.png>] [12]
-<images/lopinput.png, id=255, 299.61937pt x 246.9225pt>
+<images/lopinput.png, id=295, 299.61937pt x 246.9225pt>
 File: images/lopinput.png Graphic file (type png)
 <use images/lopinput.png>
 Package pdftex.def Info: images/lopinput.png  used on input line 142.
 (pdftex.def)             Requested size: 220.50887pt x 181.72885pt.
-<images/ketnoivung.png, id=257, 358.33875pt x 264.23718pt>
+<images/ketnoivung.png, id=297, 358.33875pt x 264.23718pt>
 File: images/ketnoivung.png Graphic file (type png)
 <use images/ketnoivung.png>
 Package pdftex.def Info: images/ketnoivung.png  used on input line 150.
@@ -1048,7 +1048,7 @@ has been already used, duplicate ignored
 l.154 V
        ùng đó trong bức ảnh đầu vào được gọi là vùng ti�...
  <./images/lopinput.png>]
-<images/truongtiepnhancucbo.png, id=267, 562.35094pt x 244.66406pt>
+<images/truongtiepnhancucbo.png, id=307, 562.35094pt x 244.66406pt>
 File: images/truongtiepnhancucbo.png Graphic file (type png)
 <use images/truongtiepnhancucbo.png>
 Package pdftex.def Info: images/truongtiepnhancucbo.png  used on input line 165
@@ -1062,7 +1062,7 @@ has been already used, duplicate ignored
 l.169 S
        au đó, chúng ta trượt trường tiếp nhận cục bộ trên ...
  <./images/ketnoivung.png>]
-<images/truongtiepnhancucbo2.png, id=275, 559.33969pt x 234.1247pt>
+<images/truongtiepnhancucbo2.png, id=315, 559.33969pt x 234.1247pt>
 File: images/truongtiepnhancucbo2.png Graphic file (type png)
 <use images/truongtiepnhancucbo2.png>
 Package pdftex.def Info: images/truongtiepnhancucbo2.png  used on input line 17
@@ -1081,12 +1081,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.1.11})
                                                   \__shipout_drop_firstpage_...
 l.178 
        <./images/truongtiepnhancucbo.png> <./images/truongtiepnhancucbo2.png>]
-<images/babandodactrung.png, id=283, 472.01344pt x 266.49562pt>
+<images/babandodactrung.png, id=324, 472.01344pt x 266.49562pt>
 File: images/babandodactrung.png Graphic file (type png)
 <use images/babandodactrung.png>
 Package pdftex.def Info: images/babandodactrung.png  used on input line 182.
 (pdftex.def)             Requested size: 352.81552pt x 199.20026pt.
-<images/20bandodactrung.png, id=285, 389.95688pt x 461.47406pt>
+<images/20bandodactrung.png, id=326, 389.95688pt x 461.47406pt>
 File: images/20bandodactrung.png Graphic file (type png)
 <use images/20bandodactrung.png>
 Package pdftex.def Info: images/20bandodactrung.png  used on input line 191.
@@ -1106,13 +1106,13 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.1.13})
                                                   \__shipout_drop_firstpage_...
 l.198 
        <./images/20bandodactrung.png>]
-<images/cnnmaxpooling22.png, id=301, 369.63094pt x 196.48407pt>
+<images/cnnmaxpooling22.png, id=341, 369.63094pt x 196.48407pt>
 File: images/cnnmaxpooling22.png Graphic file (type png)
 <use images/cnnmaxpooling22.png>
 Package pdftex.def Info: images/cnnmaxpooling22.png  used on input line 211.
 (pdftex.def)             Requested size: 352.81552pt x 187.54623pt.
  [18]
-<images/maxpoolingvoibabandodactrung.png, id=309, 472.01344pt x 189.70876pt>
+<images/maxpoolingvoibabandodactrung.png, id=349, 472.01344pt x 189.70876pt>
 File: images/maxpoolingvoibabandodactrung.png Graphic file (type png)
 <use images/maxpoolingvoibabandodactrung.png>
 Package pdftex.def Info: images/maxpoolingvoibabandodactrung.png  used on input
@@ -1132,7 +1132,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.1.15})
 l.225 
        <./images/cnnmaxpooling22.png> <./images/maxpoolingvoibabandodactrung.pn
 g>]
-<images/cnnnhandangchuviet.png, id=319, 489.32813pt x 191.21437pt>
+<images/cnnnhandangchuviet.png, id=359, 489.32813pt x 191.21437pt>
 File: images/cnnnhandangchuviet.png Graphic file (type png)
 <use images/cnnnhandangchuviet.png>
 Package pdftex.def Info: images/cnnnhandangchuviet.png  used on input line 231.
@@ -1145,7 +1145,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.1.16})
                                                   \__shipout_drop_firstpage_...
 l.236 
        <./images/cnnnhandangchuviet.png>] [21]
-<images/Normal-1.png, id=334, 513.92pt x 513.92pt>
+<images/Normal-1.png, id=375, 513.92pt x 513.92pt>
 File: images/Normal-1.png Graphic file (type png)
 <use images/Normal-1.png>
 Package pdftex.def Info: images/Normal-1.png  used on input line 274.
@@ -1167,7 +1167,7 @@ Ch\uhorn \ohorn ng 2.
 (vgg16.tex [24
 
 ]
-<images/vgg16_imagenet.png, id=356, 468.24937pt x 262.73157pt>
+<images/vgg16_imagenet.png, id=396, 468.24937pt x 262.73157pt>
 File: images/vgg16_imagenet.png Graphic file (type png)
 <use images/vgg16_imagenet.png>
 Package pdftex.def Info: images/vgg16_imagenet.png  used on input line 13.
@@ -1179,37 +1179,34 @@ has been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.20 
       <./images/vgg16_imagenet.png>]
-<images/vgg16_imagenet_detail.png, id=364, 822.82407pt x 404.26031pt>
+<images/vgg16_imagenet_detail.png, id=404, 822.82407pt x 404.26031pt>
 File: images/vgg16_imagenet_detail.png Graphic file (type png)
 <use images/vgg16_imagenet_detail.png>
 Package pdftex.def Info: images/vgg16_imagenet_detail.png  used on input line 2
 7.
 (pdftex.def)             Requested size: 441.01773pt x 216.67499pt.
- [26] [27
+ [26] (code_vgg16.tex
+LaTeX Font Info:    Trying to load font information for T5+cmtt on input line 1
+.
+
+(C:\Users\Nguyen Huu Khanh\AppData\Local\Programs\MiKTeX\tex/latex/vntex\t5cmtt
+.fd
+File: t5cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+) [27
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.38 \end{enumerate}
-                     <./images/vgg16_imagenet_detail.png>]
-<images/vgg16_luanvan.png, id=380, 698.61pt x 182.93344pt>
-File: images/vgg16_luanvan.png Graphic file (type png)
-<use images/vgg16_luanvan.png>
-Package pdftex.def Info: images/vgg16_luanvan.png  used on input line 55.
-(pdftex.def)             Requested size: 441.01773pt x 115.48314pt.
-) (resnet.tex)
-(densenet.tex [28
-pdfTeX warning (ext4): destination with the same identifier (name{figure.2.3}) 
-has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.4 
-     <./images/vgg16_luanvan.png>]
-<images/densenet_hl.png, id=389, 503.63156pt x 364.36125pt>
-File: images/densenet_hl.png Graphic file (type png)
-<use images/densenet_hl.png>
-Package pdftex.def Info: images/densenet_hl.png  used on input line 7.
-(pdftex.def)             Requested size: 352.81552pt x 255.25128pt.
+l.26 	x 
+        = MaxPooling2D(pool_size=(2,2), strides=(2,2), name='max_pooling2d_4...
+ <./images/vgg16_imagenet_detail.png>])) (resnet.tex
+<images/resnet_vanishing_gradient.png, id=443, 878.28125pt x 295.1025pt>
+File: images/resnet_vanishing_gradient.png Graphic file (type png)
+<use images/resnet_vanishing_gradient.png>
+Package pdftex.def Info: images/resnet_vanishing_gradient.png  used on input li
+ne 8.
+(pdftex.def)             Requested size: 441.01773pt x 148.18578pt.
+ [28]
 LaTeX Font Info:    Calculating math sizes for size <14> on input line 12.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 12.
 
@@ -1231,16 +1228,109 @@ LaTeX Font Info:    Trying to load font information for U+lasy on input line 12
 (C:\Users\Nguyen Huu Khanh\AppData\Local\Programs\MiKTeX\tex/latex/base\ulasy.f
 d
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
-) [29
+)
+<images/resnet_residual_block.png, id=467, 309.40594pt x 196.48407pt>
+File: images/resnet_residual_block.png Graphic file (type png)
+<use images/resnet_residual_block.png>
+Package pdftex.def Info: images/resnet_residual_block.png  used on input line 1
+7.
+(pdftex.def)             Requested size: 220.50887pt x 140.03532pt.
+ [29
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.3}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.21 V
+      iệc thêm vào các residual block vào trong kiến trúc mạng de...
+ <./images/resnet_vanishing_gradient.png (PNG copy)>]
+<images/resnet_identity_mapping.png, id=479, 878.28125pt x 205.76875pt>
+File: images/resnet_identity_mapping.png Graphic file (type png)
+<use images/resnet_identity_mapping.png>
+Package pdftex.def Info: images/resnet_identity_mapping.png  used on input line
+ 26.
+(pdftex.def)             Requested size: 441.01773pt x 103.32681pt.
+<images/resnet_conv_block.png, id=480, 878.28125pt x 201.75375pt>
+File: images/resnet_conv_block.png Graphic file (type png)
+<use images/resnet_conv_block.png>
+Package pdftex.def Info: images/resnet_conv_block.png  used on input line 33.
+(pdftex.def)             Requested size: 441.01773pt x 101.31068pt.
+ [30
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.4}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.15 \begin{equation}
-                     \label{eq:denseconnectivity} <./images/densenet_hl.png>]))
-(chuong3.tex [30]
+l.37 \end{itemize}
+                  
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.5}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.37 \end{itemize}
+                   <./images/resnet_residual_block.png> <./images/resnet_identi
+ty_mapping.png (PNG copy)>]
+<images/resnet_architecture.png, id=488, 1688.3075pt x 355.3275pt>
+File: images/resnet_architecture.png Graphic file (type png)
+<use images/resnet_architecture.png>
+Package pdftex.def Info: images/resnet_architecture.png  used on input line 42.
+
+(pdftex.def)             Requested size: 441.01773pt x 92.81671pt.
+ [31
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.6}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.53 	\item S
+             tage 5 :Convolutional sử dụng 3 filter size 512x512x2048, f...
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.7}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.53 	\item S
+             tage 5 :Convolutional sử dụng 3 filter size 512x512x2048, f...
+ <./images/resnet_conv_block.png (PNG copy)> <./images/resnet_architecture.png 
+(PNG copy)>] (code_resnet.tex [32])) (densenet.tex
+<images/densenet_hl.png, id=539, 503.63156pt x 364.36125pt>
+File: images/densenet_hl.png Graphic file (type png)
+<use images/densenet_hl.png>
+Package pdftex.def Info: images/densenet_hl.png  used on input line 7.
+(pdftex.def)             Requested size: 352.81552pt x 255.25128pt.
+ [33]
+<images/densenet_3blk.png, id=566, 1001.99344pt x 156.585pt>
+File: images/densenet_3blk.png Graphic file (type png)
+<use images/densenet_3blk.png>
+Package pdftex.def Info: images/densenet_3blk.png  used on input line 25.
+(pdftex.def)             Requested size: 441.01773pt x 68.91911pt.
+ [34
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.8}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.28 \end{figure}
+                  <./images/densenet_hl.png>] [35
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.9}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.35 
+      <./images/densenet_3blk.png>] [36]
+<images/densenet_archtectures_for_imagenet.png, id=588, 656.4525pt x 317.68687p
+t>
+File: images/densenet_archtectures_for_imagenet.png Graphic file (type png)
+<use images/densenet_archtectures_for_imagenet.png>
+Package pdftex.def Info: images/densenet_archtectures_for_imagenet.png  used on
+ input line 44.
+(pdftex.def)             Requested size: 441.01773pt x 213.43079pt.
+ (code_densenet121.tex [37
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.10})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.24 	#
+        Add dense blocks <./images/densenet_archtectures_for_imagenet.png>]
+[38]))) (chuong3.tex [39]
 Ch\uhorn \ohorn ng 3.
-) (tailieuthamkhao.tex [31
+) (tailieuthamkhao.tex [40
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
@@ -1260,9 +1350,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--10
 Bdoc7SRq8tg-
  []
 
-[32
+[41
 
-]) [33] (LuanVan.aux)
+]) [42] (LuanVan.aux)
 
  *File List*
     book.cls    2021/10/04 v1.4n Standard LaTeX document class
@@ -1385,47 +1475,59 @@ images/Normal-1.png
    vgg16.tex
 images/vgg16_imagenet.png
 images/vgg16_imagenet_detail.png
-images/vgg16_luanvan.png
+code_vgg16.tex
+  t5cmtt.fd    1999/05/25 v2.5h Standard LaTeX font definitions
   resnet.tex
-densenet.tex
-images/densenet_hl.png
+images/resnet_vanishing_gradient.png
     umsa.fd    2013/01/14 v3.01 AMS symbols A
     umsb.fd    2013/01/14 v3.01 AMS symbols B
    ulasy.fd    1998/08/17 v2.2e LaTeX symbol font definitions
+images/resnet_residual_block.png
+images/resnet_identity_mapping.png
+images/resnet_conv_block.png
+images/resnet_architecture.png
+code_resnet.tex
+densenet.tex
+images/densenet_hl.png
+images/densenet_3blk.png
+images/densenet_archtectures_for_imagenet.png
+code_densenet121.tex
  chuong3.tex
 tailieuthamkhao.tex
  ***********
 
 Package rerunfilecheck Info: File `LuanVan.out' has not changed.
-(rerunfilecheck)             Checksum: F719DFFB5AFBEBCFD2B899A22544C4D7;3942.
+(rerunfilecheck)             Checksum: AEA57BCFEB9959EC653D39F491FB2D7B;5179.
  ) 
 Here is how much of TeX's memory you used:
- 15447 strings out of 478614
- 244527 string characters out of 2837895
- 713728 words of memory out of 3000000
- 33191 multiletter control sequences out of 15000+600000
- 483655 words of font info for 56 fonts, out of 8000000 for 9000
+ 16269 strings out of 478614
+ 256020 string characters out of 2837895
+ 841728 words of memory out of 3000000
+ 33770 multiletter control sequences out of 15000+600000
+ 486836 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,12n,77p,1825b,525s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 72i,12n,77p,1825b,2060s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\Nguyen Huu Khanh\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/
 dpi600\tcrm1440.pk> <C:\Users\Nguyen Huu Khanh\AppData\Local\MiKTeX\fonts/pk/lj
 four/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/Nguyen Huu Khanh/AppData/Local/Pr
-ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Nguyen Huu Kh
-anh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:
+ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Nguyen Huu Kh
+anh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:
 /Users/Nguyen Huu Khanh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
-ts/cm/cmr10.pfb><C:/Users/Nguyen Huu Khanh/AppData/Local/Programs/MiKTeX/fonts/
-type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Nguyen Huu Khanh/AppData/Local/Pro
-grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Nguyen Huu Kha
-nh/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnbx10.pfb><C:/Users/Ngu
-yen Huu Khanh/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnbx12.pfb><C
-:/Users/Nguyen Huu Khanh/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vn
-r10.pfb><C:/Users/Nguyen Huu Khanh/AppData/Local/Programs/MiKTeX/fonts/type1/vn
-tex/vnr/vnr12.pfb><C:/Users/Nguyen Huu Khanh/AppData/Local/Programs/MiKTeX/font
-s/type1/vntex/vnr/vnr9.pfb><C:/Users/Nguyen Huu Khanh/AppData/Local/Programs/Mi
-KTeX/fonts/type1/vntex/vnr/vnti12.pfb>
-Output written on LuanVan.pdf (36 pages, 2301122 bytes).
+ts/cm/cmmi12.pfb><C:/Users/Nguyen Huu Khanh/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Nguyen Huu Khanh/AppData/Local/Pr
+ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Nguyen Huu Kha
+nh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/
+Users/Nguyen Huu Khanh/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnbx
+10.pfb><C:/Users/Nguyen Huu Khanh/AppData/Local/Programs/MiKTeX/fonts/type1/vnt
+ex/vnr/vnbx12.pfb><C:/Users/Nguyen Huu Khanh/AppData/Local/Programs/MiKTeX/font
+s/type1/vntex/vnr/vnr10.pfb><C:/Users/Nguyen Huu Khanh/AppData/Local/Programs/M
+iKTeX/fonts/type1/vntex/vnr/vnr12.pfb><C:/Users/Nguyen Huu Khanh/AppData/Local/
+Programs/MiKTeX/fonts/type1/vntex/vnr/vnr9.pfb><C:/Users/Nguyen Huu Khanh/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnti12.pfb><C:/Users/Nguyen Huu 
+Khanh/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vntt9.pfb>
+Output written on LuanVan.pdf (46 pages, 2623596 bytes).
 PDF statistics:
- 513 PDF objects out of 1000 (max. 8388607)
- 106 named destinations out of 1000 (max. 500000)
- 290 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 870 PDF objects out of 1000 (max. 8388607)
+ 326 named destinations out of 1000 (max. 500000)
+ 368 words of extra memory for PDF output out of 10000 (max. 10000000)
 
