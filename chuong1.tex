@@ -268,7 +268,9 @@ Trong thực tế, tùy vào ứng dụng cụ thể mà ta chọn các tham s�
 Tuy vậy, do mục tiêu, đối tượng nghiên cứu, phạm vi nghiên cứu, nên luận văn chỉ tập trung nghiên cứu hỗ trợ chuẩn đoán bệnh lao qua các hình ảnh x-quang phổi thường quy dựa vào học máy, học sâu.
 
 \subsection{Mô tả bài toán}
-Ta có tập dữ liệu với 3500 ảnh của người không có lao và 700 ảnh của người có lao đã được gán nhãn. Mỗi hình ảnh có kích thước 512 x 512 định dạng PNG như hình \ref{fig:normalimg}.
+Bài toán phân loại hình ảnh của luận văn là một trong những nhiệm vụ phổ biến trong Computer Vision. Mục tiêu chính của bài toán này đó chính là phân loại một hình ảnh đầu vào (input) thành một nhãn (label) đầu ra (output).  
+
+Với bài toán phân loại ảnh của luận văn, ta có tập dữ liệu ảnh chụp x-quang phổi đã được gán nhãn làm hình ảnh đầu vào (input). Hình ảnh có định dạng PNG như hình \ref{fig:normalimg}.
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.55\linewidth]{images/Normal-1.png}
@@ -277,4 +279,4 @@ Ta có tập dữ liệu với 3500 ảnh của người không có lao và 700 
 \end{figure}
 Tập dữ liệu trên được một nhóm các nhà nghiên cứu từ Đại học Qatar, Doha, và Đại học Dhaka, Bangladesh cùng với các cộng tác viên của họ từ Malaysia phối hợp với các bác sĩ từ Hamad Medical Corporation và Bangladesh đã tạo ra một cơ sở dữ liệu về hình ảnh X-quang phổi cho người có lao cùng với hình ảnh người không có lao \cite{dataset}. Dữ liệu trên được cung cấp miễn phí tại \href{https://www.kaggle.com/datasets/tawsifurrahman/tuberculosis-tb-chest-xray-dataset}{https://www.kaggle.com/datasets/tawsifurrahman/tuberculosis-tb-chest-xray-dataset}.
 
-Từ tập dữ liệu trên, ta tách riêng biệt 100 ảnh ngẫu nhiên từ cả 2 nhãn để làm dữ liệu đánh giá, kiểm thử độc lập. 4100 ảnh còn lại sẽ được dùng để huấn luyện các mô hình học sâu của luận văn. Sau khi hoàn thành quá trình huấn luyện, ta sẽ dùng dữ liệu đánh giá riêng biệt (100 ảnh đã tách riêng) để các mô hình phân loại, dự đoán về khả năng ảnh x-quang đó là của người có lao hay không.
+Từ tập dữ liệu trên, ta sẽ tiến hành huấn luyện các mô hình học sâu của luận văn. Sau khi hoàn thành quá trình huấn luyện, ta có thể để các mô hình đã được huấn luyện kể trên thực hiện nhiêm vụ phân loại, dự đoán về khả năng ảnh x-quang phổi được đưa vào là của người có lao hay không, đây là nhãn (label) đầu ra (output) mong muốn cho bài toán của luận văn, dựa vào nhãn đầu ra ta sẽ kết luận xem người có ảnh chụp x-quang đó có bị lao hay tổn thương phổi không. 
