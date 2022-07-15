@@ -1,12 +1,6 @@
 \setcounter{chapter}{2}
 \chapter{\tenchuongiii}
-\section{Phân tích yêu cầu bài toán}
-
-
-\section{Phân tích lựa chọn công cụ}
-\subsection{Lựa chọn mô hình đã hệ thống hóa}
-
-\subsection{Phân tích mô hình hệ thống}
+\section{Tổng quan hệ thống}
 Hệ thống chương trình thử nghiệm Phần mềm chuẩn đoán bệnh lao được thiết kế theo kiến trúc Client/Server năm tầng (hình \ref{fig:client_server_ntang}), trong đó:
 \begin{itemize}
 	\item {\bf Tầng thứ nhất} là tầng giao diện người phân loại, cụ thể là ứng dụng client trên trình duyệt, quản lý tương tác người phân loại với ứng dụng như chọn ảnh gửi lên server… và hiển thị kết quả phân loại do server gửi về.
@@ -18,7 +12,7 @@ Hệ thống chương trình thử nghiệm Phần mềm chuẩn đoán bệnh l
 \end{itemize}
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.72\linewidth]{images/client_server_ntang}
+	\includegraphics[width=0.8\linewidth]{images/client_server_ntang}
 	\caption{Kiến trúc Client/Server n tầng.}
 	\label{fig:client_server_ntang}
 \end{figure}
@@ -26,29 +20,29 @@ Hệ thống chương trình thử nghiệm Phần mềm chuẩn đoán bệnh l
 Luồng hoạt động chính của hệ thống được thể hiện trong hình \ref{fig:app_sequence}, trong đó các bước thực hiện của server và client từ lúc khởi động ban đầu tới lúc kết thúc như sau:
 \begin{itemize}
 	\item Client (ứng dụng trên trình duyệt)
-	\begin{enumerate}
-		\item Người phân loại khởi động ứng dụng/website.
-		\item Người phân loại thực hiện chọn ảnh chụp x-quang trước đó được lưu trong máy tính để gửi.
-		\item Ảnh chụp được mã hóa, nén lại và gửi tới máy chủ.
-		\item Ứng dụng đợi nhận kết quả phân loại từ máy chủ gửi về và hiển thị cho người phân loại
-	\end{enumerate}
+		\begin{enumerate}
+			\item Người phân loại khởi động ứng dụng/website.
+			\item Người phân loại thực hiện chọn ảnh chụp x-quang trước đó được lưu trong máy tính để gửi.
+			\item Ảnh chụp được mã hóa, nén lại và gửi tới máy chủ.
+			\item Ứng dụng đợi nhận kết quả phân loại từ máy chủ gửi về và hiển thị cho người phân loại
+		\end{enumerate}
 	\item Chương trình Server
-	\begin{enumerate}
-		\item Chương trình được khởi động và nạp các thư viện cần thiết.
-		\item Chương trình nạp mô hình phân loại đã được huấn luyện trước đó.
-		\item Giao thức gửi, nhận dữ liệu giữa ứng dụng phía client và chương trình server được cấu hình.
-		\item Một loại các luồng xử lý được khởi tạo, đặt trạng thái ban đầu là trạng thái sẵn sàng.
-		\item Khi có ứng dụng client kết nối tới, chương trình kiểm tra trong danh sách các luồng xử lý và chọn một luồng đang ở trạng thái sẵn sàng để nhận và tính toán dữ liệu do client gửi tới.
-		\item Trong luồng xử lý:
-		\begin{itemize}
-			\item Bắt đầu quá trình tính toán phân loại, cờ trạng thái là “bận”.
-			\item Thực hiện giải nén dữ liệu thành dữ liệu ảnh gốc.
-			\item Sử dụng mô hình đã nạp để phân loại ảnh.
-			\item Trả kết quả phân loại về cho ứng dụng client.
-			\item Kết thúc quá trình tính toán.
-		\end{itemize}
-		\item Khi luồng xử lý đã hoàn thành quá trình tính toán phân loại, chương trình giải phóng luồng xử lý bằng cách cập nhật lại trạng thái hiện tại của luồng.
-	\end{enumerate}
+		\begin{enumerate}
+			\item Chương trình được khởi động và nạp các thư viện cần thiết.
+			\item Chương trình nạp mô hình phân loại đã được huấn luyện trước đó.
+			\item Giao thức gửi, nhận dữ liệu giữa ứng dụng phía client và chương trình server được cấu hình.
+			\item Một loại các luồng xử lý được khởi tạo, đặt trạng thái ban đầu là trạng thái sẵn sàng.
+			\item Khi có ứng dụng client kết nối tới, chương trình kiểm tra trong danh sách các luồng xử lý và chọn một luồng đang ở trạng thái sẵn sàng để nhận và tính toán dữ liệu do client gửi tới.
+			\item Trong luồng xử lý:
+				\begin{itemize}
+					\item Bắt đầu quá trình tính toán phân loại, cờ trạng thái là “bận”.
+					\item Thực hiện giải nén dữ liệu thành dữ liệu ảnh gốc.
+					\item Sử dụng mô hình đã nạp để phân loại ảnh.
+					\item Trả kết quả phân loại về cho ứng dụng client.
+					\item Kết thúc quá trình tính toán.
+				\end{itemize}
+			\item Khi luồng xử lý đã hoàn thành quá trình tính toán phân loại, chương trình giải phóng luồng xử lý bằng cách cập nhật lại trạng thái hiện tại của luồng.
+		\end{enumerate}
 \end{itemize}
 \begin{figure}[H]
 	\centering
@@ -57,13 +51,6 @@ Luồng hoạt động chính của hệ thống được thể hiện trong hì
 	\label{fig:app_sequence}
 \end{figure}
 
-\section{Một số kết quả chương trình}
-\subsection{Một số giao diện chính của chương trình}
-\subsubsection{Giao diện quản trị}
+%\section{Kết quả thử nghiệm}
 
-\subsubsection{Giao diện người dùng}
-
-\subsection{Một số chức năng chính của chương trình}
-
-\subsection{Một số một số ca phân loại được thực hiện bởi chương trình}
-
+%\section{Đánh giá}

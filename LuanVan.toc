@@ -18,24 +18,35 @@
 \contentsline {subsubsection}{\numberline {1.1.4.3}Lớp chứa hay lớp tổng hợp (Pooling layer)}{16}{subsubsection.1.1.4.3}%
 \contentsline {subsubsection}{\numberline {1.1.4.4}Cách chọn tham số cho CNN}{19}{subsubsection.1.1.4.4}%
 \contentsline {section}{\numberline {1.2}Bài toán chuẩn đoán bệnh lao}{19}{section.1.2}%
-\contentsline {subsection}{\numberline {1.2.1}Mô tả bài toán}{20}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.1}Các dữ liệu để chuẩn đoán bệnh lao}{19}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Mô tả bài toán}{20}{subsection.1.2.2}%
 \contentsline {chapter}{\numberline {2}\text {Một số mô hình hỗ trợ chuẩn đoán.}}{22}{chapter.2}%
 \contentsline {section}{\numberline {2.1}VGG-16}{22}{section.2.1}%
 \contentsline {subsection}{\numberline {2.1.1}VGG16 là gì}{22}{subsection.2.1.1}%
 \contentsline {subsection}{\numberline {2.1.2}Kiến trúc VGG16}{23}{subsection.2.1.2}%
 \contentsline {subsection}{\numberline {2.1.3}Cài đặt VGG16}{25}{subsection.2.1.3}%
-\contentsline {subsection}{\numberline {2.1.4}Áp dụng VGG16 vào bài toán của luận văn}{26}{subsection.2.1.4}%
-\contentsline {section}{\numberline {2.2}ResNet}{26}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Resnet là gì}{26}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.1.4}Ưu nhược điểm của VGG16}{26}{subsection.2.1.4}%
+\contentsline {section}{\numberline {2.2}ResNet}{27}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Resnet là gì}{27}{subsection.2.2.1}%
 \contentsline {subsection}{\numberline {2.2.2}Kiến trúc của Resnet}{29}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Cài đặt Resnet}{30}{subsection.2.2.3}%
-\contentsline {subsection}{\numberline {2.2.4}Áp dụng Resnet vào bài toán của luận văn}{31}{subsection.2.2.4}%
-\contentsline {section}{\numberline {2.3}DenseNet}{31}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}DenseNet là gì}{31}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Kiến trúc của DenseNet}{34}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Cài đặt DenseNet}{35}{subsection.2.3.3}%
-\contentsline {subsection}{\numberline {2.3.4}Áp dụng DenseNet vào bài toán của luận văn}{37}{subsection.2.3.4}%
-\contentsline {chapter}{\numberline {3}\text {Chương trình thử nghiệm.}}{38}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Tổng quan hệ thống}{38}{section.3.1}%
-\contentsline {chapter}{Tài liệu tham khảo}{42}{figure.3.2}%
+\contentsline {subsection}{\numberline {2.2.3}Cài đặt Resnet}{31}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Áp dụng Resnet vào bài toán của luận văn}{32}{subsection.2.2.4}%
+\contentsline {section}{\numberline {2.3}DenseNet}{32}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}DenseNet là gì}{32}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Kiến trúc của DenseNet}{35}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Cài đặt DenseNet}{36}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Áp dụng DenseNet vào bài toán của luận văn}{38}{subsection.2.3.4}%
+\contentsline {chapter}{\numberline {3}\text {Chương trình thử nghiệm.}}{39}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Phân tích yêu cầu bài toán}{39}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Phân tích lựa chọn công cụ}{39}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Lựa chọn mô hình đã hệ thống hóa}{39}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Phân tích mô hình hệ thống}{39}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}Một số kết quả chương trình}{43}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Một số giao diện chính của chương trình}{43}{subsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.1.1}Giao diện quản trị}{43}{subsubsection.3.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.3.1.2}Giao diện người dùng}{43}{subsubsection.3.3.1.2}%
+\contentsline {subsection}{\numberline {3.3.2}Một số chức năng chính của chương trình}{43}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Một số một số ca phân loại được thực hiện bởi chương trình}{43}{subsection.3.3.3}%
+\contentsline {chapter}{Kết luận}{44}{chapter*.6}%
+\contentsline {chapter}{Tài liệu tham khảo}{46}{chapter*.6}%
 \contentsfinish 
