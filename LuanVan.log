@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.5)  15 JUL 2022 06:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.5)  15 JUL 2022 22:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1081,7 +1081,7 @@ Overfull \hbox (13.70499pt too wide) detected at line 27
 
 
 Overfull \hbox (13.70499pt too wide) detected at line 28
- []\T5/cmr/m/n/14 34
+ []\T5/cmr/m/n/14 35
  []
 
 
@@ -1091,12 +1091,12 @@ Overfull \hbox (13.70499pt too wide) detected at line 29
 
 
 Overfull \hbox (13.70499pt too wide) detected at line 31
- []\T5/cmr/m/n/14 40
+ []\T5/cmr/m/n/14 43
  []
 
 
 Overfull \hbox (13.70499pt too wide) detected at line 32
- []\T5/cmr/m/n/14 42
+ []\T5/cmr/m/n/14 45
  []
 
 )
@@ -1438,32 +1438,33 @@ has been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.4 	#
        Define the input as a tensor with shape input_shape <./images/resnet_arc
-hitecture.png (PNG copy)>])) (densenet.tex [31]
-<images/densenet_hl.png, id=669, 503.63156pt x 364.36125pt>
+hitecture.png (PNG copy)>]) [31]) (densenet.tex [32]
+<images/densenet_hl.png, id=675, 503.63156pt x 364.36125pt>
 File: images/densenet_hl.png Graphic file (type png)
 <use images/densenet_hl.png>
 Package pdftex.def Info: images/densenet_hl.png  used on input line 7.
 (pdftex.def)             Requested size: 352.81552pt x 255.25128pt.
- [32]
-<images/densenet_3blk.png, id=680, 1001.99344pt x 156.585pt>
-File: images/densenet_3blk.png Graphic file (type png)
-<use images/densenet_3blk.png>
-Package pdftex.def Info: images/densenet_3blk.png  used on input line 25.
-(pdftex.def)             Requested size: 441.01773pt x 68.91911pt.
  [33
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.8}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.28 \end{figure}
-                  <./images/densenet_hl.png>] [34
+l.15 \begin{equation}
+                     \label{eq:denseconnectivity} <./images/densenet_hl.png>]
+<images/densenet_3blk.png, id=688, 1001.99344pt x 156.585pt>
+File: images/densenet_3blk.png Graphic file (type png)
+<use images/densenet_3blk.png>
+Package pdftex.def Info: images/densenet_3blk.png  used on input line 25.
+(pdftex.def)             Requested size: 441.01773pt x 68.91911pt.
+
+[34] [35
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.9}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.35 
-      <./images/densenet_3blk.png>] [35]
-<images/densenet_archtectures_for_imagenet.png, id=701, 656.4525pt x 317.68687p
+l.38 
+      <./images/densenet_3blk.png>]
+<images/densenet_archtectures_for_imagenet.png, id=703, 656.4525pt x 317.68687p
 t>
 File: images/densenet_archtectures_for_imagenet.png Graphic file (type png)
 <use images/densenet_archtectures_for_imagenet.png>
@@ -1475,42 +1476,48 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.10})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.24 	#
-        Add dense blocks <./images/densenet_archtectures_for_imagenet.png>]
-[37]))) (chuong3.tex [38]
+l.1 \begin{lstlisting}[language=Python]
+                                        <./images/densenet_archtectures_for_ima
+genet.png>] [37]) [38])) (chuong3.tex [39]
 Ch\uhorn \ohorn ng 3.
-[39
 
-]
-<images/client_server_ntang.png, id=826, 783.92876pt x 1255.69125pt>
+Overfull \hbox (18.17517pt too wide) in paragraph at lines 8--10
+\T5/cmr/m/n/14 mi�n ph� t�i []https://www.kaggle.com/datasets/tawsifurrahman/tu
+berculosis-
+ []
+
+[40
+
+] [41] [42]
+<images/client_server_ntang.png, id=847, 783.92876pt x 1255.69125pt>
 File: images/client_server_ntang.png Graphic file (type png)
 <use images/client_server_ntang.png>
-Package pdftex.def Info: images/client_server_ntang.png  used on input line 21.
+Package pdftex.def Info: images/client_server_ntang.png  used on input line 42.
 
 (pdftex.def)             Requested size: 317.5333pt x 508.62883pt.
- [40
+ [43
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.28 	\item
-            Client (ứng dụng trên trình duyệt) <./images/client_server_
-ntang.png>] [41]
-<images/app_sequence.png, id=848, 621.32124pt x 735.74875pt>
+l.51 		\item N
+              gười phân loại khởi động ứng dụng/website. <./imag
+es/client_server_ntang.png>] [44]
+<images/app_sequence.png, id=869, 621.32124pt x 735.74875pt>
 File: images/app_sequence.png Graphic file (type png)
 <use images/app_sequence.png>
-Package pdftex.def Info: images/app_sequence.png  used on input line 55.
+Package pdftex.def Info: images/app_sequence.png  used on input line 76.
 (pdftex.def)             Requested size: 388.09775pt x 459.5724pt.
-) (ketluan.tex [42
+) (ketluan.tex [45
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.1 \chapter
             *{\begin{center}Kết luận\end{center}} <./images/app_sequence.pn
-g>] [43] [44
+g>] [46] [47
 
-]) (tailieuthamkhao.tex [45]
+]) (tailieuthamkhao.tex [48]
 Underfull \hbox (badness 10000) in paragraph at lines 4--5
 []\T5/cmr/m/n/14 WHO \T5/cmr/m/it/14 Global tu-ber-cu-lo-sis re-port 2020\T5/cm
 r/m/n/14 , b�o c�o t�i []
@@ -1528,9 +1535,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--11
 Bdoc7SRq8tg-
  []
 
-[46
+[49
 
-]) [47] (LuanVan.aux)
+]) [50] (LuanVan.aux)
 
  *File List*
     book.cls    2021/10/04 v1.4n Standard LaTeX document class
@@ -1678,13 +1685,13 @@ tailieuthamkhao.tex
  ***********
 
 Package rerunfilecheck Info: File `LuanVan.out' has not changed.
-(rerunfilecheck)             Checksum: F989ADAA2B0C75B2B7CB12B300175234;7801.
+(rerunfilecheck)             Checksum: 2DB11E7836DA608BC4A25471042F11BA;7605.
  ) 
 Here is how much of TeX's memory you used:
- 16353 strings out of 478614
- 257482 string characters out of 2837895
- 871728 words of memory out of 3000000
- 33811 multiletter control sequences out of 15000+600000
+ 16360 strings out of 478614
+ 257597 string characters out of 2837895
+ 869728 words of memory out of 3000000
+ 33813 multiletter control sequences out of 15000+600000
  486836 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  72i,12n,77p,1825b,2060s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -1706,9 +1713,9 @@ iKTeX/fonts/type1/vntex/vnr/vnr12.pfb><C:/Users/Nguyen Huu Khanh/AppData/Local/
 Programs/MiKTeX/fonts/type1/vntex/vnr/vnr9.pfb><C:/Users/Nguyen Huu Khanh/AppDa
 ta/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnti12.pfb><C:/Users/Nguyen Huu 
 Khanh/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vntt9.pfb>
-Output written on LuanVan.pdf (55 pages, 2718765 bytes).
+Output written on LuanVan.pdf (58 pages, 2726212 bytes).
 PDF statistics:
- 1033 PDF objects out of 1200 (max. 8388607)
- 361 named destinations out of 1000 (max. 500000)
+ 1054 PDF objects out of 1200 (max. 8388607)
+ 366 named destinations out of 1000 (max. 500000)
  466 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,7 +1,28 @@
 \setcounter{chapter}{2}
 \chapter{\tenchuongiii}
 \section{Phân tích yêu cầu bài toán}
+Như đã nói tại Chương 1, bài toán phân loại hình ảnh của luận văn là một trong những nhiệm vụ phổ biến trong Computer Vision. Mục tiêu chính của bài toán này đó chính là phân loại một hình ảnh đầu vào (input) thành một nhãn (label) đầu ra (output).  
 
+Với bài toán phân loại ảnh của luận văn, ta có tập dữ liệu ảnh chụp x-quang phổi đã được gán nhãn làm hình ảnh đầu vào (input). Hình ảnh có định dạng PNG như hình \ref{fig:normalimg}.
+
+Tập dữ liệu trên được một nhóm các nhà nghiên cứu từ Đại học Qatar, Doha, và Đại học Dhaka, Bangladesh cùng với các cộng tác viên của họ từ Malaysia phối hợp với các bác sĩ từ Hamad Medical Corporation và Bangladesh đã tạo ra một cơ sở dữ liệu về hình ảnh X-quang phổi cho người có lao cùng với hình ảnh người không có lao \cite{dataset}. Dữ liệu trên được cung cấp miễn phí tại \href{https://www.kaggle.com/datasets/tawsifurrahman/tuberculosis-tb-chest-xray-dataset}{https://www.kaggle.com/datasets/tawsifurrahman/tuberculosis-tb-chest-xray-dataset}. Thông tin cụ thể về tập dữ liệu như sau:
+\begin{itemize}
+	\item Tổng số 4200 ảnh đã được phân loại thành hai thư mục Normal (bình thường) và Tuberculosis (có lao).
+	\item Số ảnh người mắc lao: 700 ảnh.
+	\item Số ảnh người không mắc lao: 3500 ảnh.
+	\item Kích thước ảnh: 512 x 512 (pixel)
+	\item Định dạng ảnh: PNG.
+	\item Tập tin Normal.metadata.xlsx tổng hợp thông tin về các file ảnh của người không mắc lao.
+	\item Tập tin Tuberculosis.metadata.xlsx tổng hợp thông tin về các file ảnh của người mắc lao.
+\end{itemize}
+
+Mục tiêu mong muốn của bài toán là việc có thể dự đoán về khả năng ảnh x-quang phổi được đưa vào là của người có lao hay không, đây là nhãn (label) đầu ra (output) mong muốn, dựa vào nhãn đầu ra này ta sẽ kết luận xem người có ảnh chụp x-quang đó có bị lao hay tổn thương phổi không. Để thực hiện được mục tiêu trên, ta cần thực hiện hai pha:
+\begin{itemize}
+	\item \textbf{Học:} Lặp lại nhiều lần việc lần lượt đưa tất cả ảnh đầu vào để huấn luyện mô hình, trích chọn ra các đặc trưng của ảnh rồi lưu lại. Quá trình này nên dừng lại khi độ chính xác đạt mức tối thiểu mà ta đặt ra hoặc độ chính xác tăng lên không đáng kể sau một số lượt huấn luyện nhất định. 
+	\item \textbf{Phân loại:} Dùng các đặc trưng mà mô hình thu được tại pha Học, đưa ảnh chụp x-quang đầu vào để tiến hành so sánh với các đặc trưng đó, kết thúc quá trình bằng một giá trị dự đoán khả năng mắc lao của người có ảnh x-quang được đưa vào.
+\end{itemize}
+
+Để đảm bảo tính chính xác, khách quan cho khả năng dự đoán của mô hình đã đào tạo, ta cần tách dữ liệu cho hai pha này phải khác nhau. Ta có thể tách riêng 100 ảnh trong tập dữ liệu bao gồm cả ảnh x-quang của người có lao và không có lao là một tập dữ liệu mới gọi là dữ liệu xác thực để sử dụng cho pha Phân loại. Còn lại 4100 ảnh x-quang của tập dữ liệu gốc ta gọi là dữ liệu huấn luyện và sử dụng cho pha Học.
 
 \section{Phân tích lựa chọn công cụ}
 \subsection{Lựa chọn mô hình đã hệ thống hóa}
