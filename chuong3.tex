@@ -73,18 +73,57 @@ Luồng hoạt động chính của hệ thống được thể hiện trong hì
 \end{itemize}
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.88\linewidth]{images/app_sequence}
+	\includegraphics[width=1\linewidth]{images/app_sequence}
 	\caption{Luồng hoạt động chính của hệ thống.}
 	\label{fig:app_sequence}
 \end{figure}
 
 \section{Một số kết quả chương trình}
-\subsection{Một số giao diện chính của chương trình}
-\subsubsection{Giao diện quản trị}
+\subsection{Một số giao diện và chức năng chính chính của chương trình}
+\subsection{Giao diện đăng nhập hệ thống}
+Giao diện đăng nhập hệ thống cung cấp lớp bảo vệ cơ bản cùng khả năng định danh người dùng, từ đó đưa ra nhưng ngữ cảnh thực đơn phù hợp.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{images/giaodien_dangnhap}
+	\caption{Giao diện đăng nhập hệ thống.}
+	\label{fig:giaodien_dangnhap}
+\end{figure}
 
-\subsubsection{Giao diện người dùng}
+\subsubsection{Giao diện cập nhật mô hình}
+Tại đây, quản trị viên có thể thay đổi mô hình được sử dụng trong hệ thống. Mô hình này là được tạo ra ở pha Học. Mô hình mới được tải lên server, lưu trữ lại và ghi lại thông tin về đường dẫn để hệ thống có thể gọi được khi cần thiết.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{images/quantri_doi_model}
+	\caption{Giao diện cập nhật mô hình được sử dụng của hệ thống.}
+	\label{fig:quantri_doi_model}
+\end{figure}
 
-\subsection{Một số chức năng chính của chương trình}
+\subsubsection{Giao diện danh sách các dự doán}
+Giao diện này tập trung thông tin của tất cả các dự đoán đã được thực hiện và lưu lại của hệ thống. Hệ thống sẽ hiện thị tất cả các dự đoán đối với người quản trị, và với tài khoản người dùng, hệ thống chỉ hiển thị những dự đoán thuộc về người dùng.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.95\linewidth]{images/user_danh_sach}
+	\caption{Giao diện danh sách các dự đoán của hệ thống.}
+	\label{fig:user_danh_sach}
+\end{figure}
+
+\subsection{Giao diện thực hiện dự đoán}
+Người dùng upload ảnh chụp x-quang đã chuyển đổi định dạng PNG với kích thước 512x512 tại đây và nhận về kết quả dự đoán.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.95\linewidth]{images/user_du_doan_chi_tiet}
+	\caption{Giao diện thực hiện phân loại của hệ thống.}
+	\label{fig:user_danh_sach}
+\end{figure}
 
 \subsection{Một số một số ca phân loại được thực hiện bởi chương trình}
+Thực hiện kiểm thử việc phân loại của hệ thống với 100 ảnh x-quang được tách riêng biệt khỏi quá trình trainning, ta có được kết quả rất khả quan.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.66\linewidth]{images/result_backtest}
+	\caption{Tổng hợp các ca phân loại của hệ thống.}
+	\label{fig:result_backtest}
+\end{figure}
+Bài toán của luận văn chỉ có hai lớp để phân loại nên phương pháp thích hợp nhất để đánh giá là True/False Positive/Negative. Ta định nghĩa lớp dữ liệu quan trọng hơn cần được xác định đúng là lớp Positive (P-dương tính), lớp còn lại được gọi là Negative (N-âm tính). Ta định nghĩa True Positive (TP), False Positive (FP), True Negative (TN), False Negative (FN) dựa trên confusion matrix chưa chuẩn hoá. 
 
+Bằng phương pháp trên, ta có kết quả tổng hợp tại hình \ref{fig:result_backtest}, tỉ lệ dự đoán chính xác là 96\%, tỉ lệ báo động nhầm (False Alarm Rate) là 1\% và tỉ lệ bỏ sót (Miss Detection Rate) là 3\%.  

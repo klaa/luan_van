@@ -42,11 +42,12 @@
 \contentsline {subsection}{\numberline {3.2.1}Lựa chọn mô hình đã hệ thống hóa}{42}{subsection.3.2.1}%
 \contentsline {subsection}{\numberline {3.2.2}Phân tích mô hình hệ thống}{42}{subsection.3.2.2}%
 \contentsline {section}{\numberline {3.3}Một số kết quả chương trình}{46}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Một số giao diện chính của chương trình}{46}{subsection.3.3.1}%
-\contentsline {subsubsection}{\numberline {3.3.1.1}Giao diện quản trị}{46}{subsubsection.3.3.1.1}%
-\contentsline {subsubsection}{\numberline {3.3.1.2}Giao diện người dùng}{46}{subsubsection.3.3.1.2}%
-\contentsline {subsection}{\numberline {3.3.2}Một số chức năng chính của chương trình}{46}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Một số một số ca phân loại được thực hiện bởi chương trình}{46}{subsection.3.3.3}%
-\contentsline {chapter}{Kết luận}{47}{chapter*.6}%
-\contentsline {chapter}{Tài liệu tham khảo}{49}{chapter*.6}%
+\contentsline {subsection}{\numberline {3.3.1}Một số giao diện và chức năng chính chính của chương trình}{46}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Giao diện đăng nhập hệ thống}{46}{subsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.2.1}Giao diện cập nhật mô hình}{47}{subsubsection.3.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.3.2.2}Giao diện danh sách các dự doán}{47}{subsubsection.3.3.2.2}%
+\contentsline {subsection}{\numberline {3.3.3}Giao diện thực hiện dự đoán}{48}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}Một số một số ca phân loại được thực hiện bởi chương trình}{49}{subsection.3.3.4}%
+\contentsline {chapter}{Kết luận}{50}{chapter*.6}%
+\contentsline {chapter}{Tài liệu tham khảo}{52}{chapter*.6}%
 \contentsfinish 
