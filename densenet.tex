@@ -49,4 +49,15 @@ Ngoài ra, các phép toán tích chập bên trong mỗi kiến trúc là các 
 \subsection{Cài đặt DenseNet}
 \input{code_densenet121}
 
-\subsection{Áp dụng DenseNet vào bài toán của luận văn}
+\subsection{Ưu nhược điểm của DenseNet}
+\textbf{Ưu điểm:}
+\begin{itemize}
+	\item Giải quyết khá tốt vấn đề vanishing-gradient của các mạng CNN thuần.
+	\item Cải thiện sự truyền tải đặc trưng giữa các lớp cả về phía trước cũng như phía sau.
+	\item Giảm đáng kể số lượng tham số.
+	\item Khuyến khích sử dụng lại các đặc trưng.
+\end{itemize}
+\textbf{Nhược điểm:}
+\begin{itemize}
+	\item Kết nối quá mức không chỉ làm giảm hiệu suất tính toán và hiệu quả tham số của mạng mà còn làm cho các mạng dễ bị overfitting. \cite{densenet_disadvantage}
+\end{itemize}
