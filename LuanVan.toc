@@ -45,9 +45,9 @@
 \contentsline {subsection}{\numberline {3.3.1}Một số giao diện và chức năng chính chính của chương trình}{46}{subsection.3.3.1}%
 \contentsline {subsection}{\numberline {3.3.2}Giao diện đăng nhập hệ thống}{46}{subsection.3.3.2}%
 \contentsline {subsubsection}{\numberline {3.3.2.1}Giao diện cập nhật mô hình}{47}{subsubsection.3.3.2.1}%
-\contentsline {subsubsection}{\numberline {3.3.2.2}Giao diện danh sách các dự doán}{47}{subsubsection.3.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.3.2.2}Giao diện danh sách các dự đoán}{47}{subsubsection.3.3.2.2}%
 \contentsline {subsection}{\numberline {3.3.3}Giao diện thực hiện dự đoán}{48}{subsection.3.3.3}%
-\contentsline {subsection}{\numberline {3.3.4}Một số một số ca phân loại được thực hiện bởi chương trình}{49}{subsection.3.3.4}%
+\contentsline {subsection}{\numberline {3.3.4}Một số ca phân loại được thực hiện bởi chương trình}{49}{subsection.3.3.4}%
 \contentsline {chapter}{Kết luận}{50}{chapter*.6}%
 \contentsline {chapter}{Tài liệu tham khảo}{52}{chapter*.6}%
 \contentsfinish 
