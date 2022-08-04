@@ -1,5 +1,5 @@
-\section{DenseNet}
-\subsection{DenseNet là gì}
+\section{Mô hình DenseNet}
+\subsection{Mô hình DenseNet là gì}
 DenseNet - Dense Convolutional Network (Mạng Tích chập Kết nối Dày đặc) - là một trong những biến thể mở rộng của Resnet và là một kiến trúc mạng,trong đó mỗi lớp được kết nối trực tiếp với mỗi lớp khác nhau theo kiểu chuyển tiếp (trong mỗi khối dense block). Đối với mỗi lớp, các bản đồ đặc trưng (feature map) của tất cả các lớp ở phần trước được coi là các đầu vào riêng biệt và ở đó các bản đồ tính năng lại tiếp tục làm đầu vào cho tất cả các lớp tiếp theo. Cấu trúc mạng này mang lại độ chính xác “state of the art” trên CIFAR. Trên bộ dữ liệu ILSVRC 2012 (ImageNet), DensetNet đạt được độ chính xác tương tự như ResNet, nhưng sử dụng ít hơn một nửa số lượng tham số. DenseNet có cấu trúc gồm các dense block và các transaction layers. Trong kiến trúc CNN truyền thống, nếu có L Layer thì có L connection, trong densenet sẽ có L(L+1)/2 connection\cite{densenetlagi}.
 
 \begin{figure}[H]
@@ -33,7 +33,7 @@ Mặc dù mỗi lớp chỉ tạo ra $k$ bản đồ đặc trưng đầu ra, nh
 {\bf Độ nén - Compression}
 Để cải thiện hơn nữa độ nhỏ gọn của mô hình, chúng ta có thể giảm số lượng bản đồ đặc trưng ở các lớp chuyển tiếp. Nếu một khối dày đặc chứa $m$ bản đồ đặc trưng, để lớp chuyển tiếp sau tạo ra $\theta m$ bản đồ đặc trưng đầu ra, trong đó $0 < \theta \leq 1$ được gọi là hệ số nén. Khi $\theta = 1$, số lượng bản đồ đối tượng trên các lớp chuyển tiếp không thay đổi.
 
-\subsection{Kiến trúc của DenseNet}
+\subsection{Cấu hình của mô hình DenseNet}
 Từ hình \ref{fig:densenet_3blk}, có thể nhận thấy rằng DenseNets được chia thành nhiều khối dày đặc DenseBlock. Các kiến trúc khác nhau của DenseNets đã được tóm tắt trong bài báo "Densely Connected Convolutional Networks"\cite{densenet}. 
 
 Mỗi kiến trúc bao gồm bốn DenseBlock với số lượng lớp khác nhau. Ví dụ, DenseNet-121 có [6,12,24,16] lớp trong bốn khối dày đặc trong khi DenseNet-169 có [6, 12, 32, 32] lớp. Chúng ta có thể thấy rằng phần đầu tiên của kiến trúc DenseNet bao gồm Lớp chuyển đổi 2 bước 7x7, tiếp theo là lớp MaxPooling 3x3 bước-2. Và khối dày đặc thứ tư được theo sau bởi một Lớp phân loại chấp nhận các bản đồ đặc trưng của tất cả các lớp của mạng để thực hiện phân loại. 
@@ -46,10 +46,10 @@ Ngoài ra, các phép toán tích chập bên trong mỗi kiến trúc là các 
 	\label{fig:densenet_archtectures_for_imagenet}
 \end{figure}
 
-\subsection{Cài đặt DenseNet}
+\subsection{Cài đặt mô hình DenseNet}
 \input{code_densenet121}
 
-\subsection{Ưu nhược điểm của DenseNet}
+\subsection{Ưu nhược điểm của mô hình DenseNet}
 \textbf{Ưu điểm:}
 \begin{itemize}
 	\item Giải quyết khá tốt vấn đề vanishing-gradient của các mạng CNN thuần.

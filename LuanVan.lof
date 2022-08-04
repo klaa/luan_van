@@ -20,13 +20,13 @@
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Kiến trúc VGG16.}}{23}{figure.2.1}%
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Chi tiết kiến trúc VGG16.}}{25}{figure.2.2}%
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Lỗi huấn luyện và lỗi kiểm tra với mạng 20 layer và 56 layer.}}{28}{figure.2.3}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Residual block.}}{28}{figure.2.4}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Residual block.}}{29}{figure.2.4}%
 \contentsline {figure}{\numberline {2.5}{\ignorespaces Identity mapping.}}{29}{figure.2.5}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Convolutional block.}}{29}{figure.2.6}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Convolutional block.}}{30}{figure.2.6}%
 \contentsline {figure}{\numberline {2.7}{\ignorespaces Kiến trúc mạng ResNet.}}{30}{figure.2.7}%
 \contentsline {figure}{\numberline {2.8}{\ignorespaces Kiến trúc DenseNet.}}{33}{figure.2.8}%
 \contentsline {figure}{\numberline {2.9}{\ignorespaces Một DenseNet sâu với ba khối dày đặc.}}{35}{figure.2.9}%
-\contentsline {figure}{\numberline {2.10}{\ignorespaces Các kiến trúc DenseNet.}}{36}{figure.2.10}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Các kiến trúc DenseNet.}}{37}{figure.2.10}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Kiến trúc Client/Server n tầng.}}{43}{figure.3.1}%
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Luồng hoạt động chính của hệ thống.}}{45}{figure.3.2}%
