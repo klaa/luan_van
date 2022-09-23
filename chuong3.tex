@@ -1,4 +1,5 @@
 \setcounter{chapter}{2}
+\setcounter{section}{1}
 \chapter{\tenchuongiii}
 \section{Phân tích yêu cầu bài toán}
 Như đã nói tại Chương 1, bài toán phân loại hình ảnh của luận văn là một trong những nhiệm vụ phổ biến trong Computer Vision. Mục tiêu chính của bài toán này đó chính là phân loại một hình ảnh đầu vào (input) thành một nhãn (label) đầu ra (output).  
@@ -26,6 +27,17 @@ Mục tiêu mong muốn của bài toán là việc có thể dự đoán về k
 
 \section{Phân tích lựa chọn công cụ}
 \subsection{Lựa chọn mô hình đã hệ thống hóa}
+Tại công bố của Karen Simonyan và Andrew Zisserman \cite{vgg16}, các tác giả có thông tin mạng VGG có số lượng tham số khổng lồ từ 133 - 144 triệu. Với hệ thống được hỗ trợ là bốn NVIDIA Titan Black GPUs, việc đào tạo một mô hình đơn chiếm tới 2-3 tuần tùy thuộc vào cấu trúc. Chính vì vấn đề thời gian và nguồn tài nguyên nghiên cứu không thể đáp ứng nên chương trình thử nghiệm sẽ không áp dụng mô hình VGG.
+ 
+Tham khảo kết quả nghiên cứu được công bố của Gao Huang \cite{densenet} được thông tin tại hình \ref{fig:selected_model} về so sánh tỷ lệ lỗi trên tập dữ liệu CIFAR và SVHN của các mô hình CNN, đặc biệt là mô hình ResNet và các biến thể của nó, ta dễ dàng nhận ra DenseNet có tỉ lể lỗi thấp hơn so với các mô hình ResNet, số lượng tham số cũng có ít hơn ResNet. Từ đây có thể nhận thấy rõ nên áp dụng mô hình DenseNet.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{images/selected_model}
+	\caption{Tỉ lể lỗi trên tập dữ liệu CIFAR và SVHN của các mô hình CNN.}
+	\label{fig:selected_model}
+\end{figure}
+
+Chính vì những cơ sở trên, học viên quyết định sử dụng mô hình DenseNet cho phần mềm thử nghiệm của luận văn.
 
 \subsection{Phân tích mô hình hệ thống}
 Hệ thống chương trình thử nghiệm Phần mềm chuẩn đoán bệnh lao được thiết kế theo kiến trúc Client/Server năm tầng (hình \ref{fig:client_server_ntang}), trong đó:
@@ -39,8 +51,8 @@ Hệ thống chương trình thử nghiệm Phần mềm chuẩn đoán bệnh l
 \end{itemize}
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.72\linewidth]{images/client_server_ntang}
-	\caption{Kiến trúc Client/Server n tầng.}
+	\includegraphics[width=1\linewidth]{images/client_server_ntang}
+	\caption{Kiến trúc Client/Server năm tầng.}
 	\label{fig:client_server_ntang}
 \end{figure}
 
