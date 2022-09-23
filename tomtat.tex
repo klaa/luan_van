@@ -1,0 +1,208 @@
+\documentclass[14pt, a4paper, reqno, oneside]{book}
+\usepackage{amssymb,latexsym,amscd,amsmath,amsfonts,enumerate,supertabular,enumitem,fancyhdr}
+\usepackage{amsmath,amsxtra,amssymb,latexsym, amscd,amsthm}
+
+\usepackage{subfigure}
+\usepackage{titlesec}
+\usepackage[usehighlevels]{alnumsec}
+\usepackage{indentfirst}
+\usepackage[utf8]{vietnam}
+%\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage{epic, eepic}
+\usepackage{lineno}
+\usepackage{array}
+\usepackage[mathscr]{eucal}
+%\usepackage{amsfonts}
+\usepackage[unicode]{hyperref}
+\usepackage{titledot}
+\usepackage[top=3cm, bottom=3cm, left=3.5cm, right=2cm] {geometry}
+\usepackage{eso-pic,calc}
+\usepackage{makeidx}
+\usepackage{float}
+\usepackage{mathptmx}
+\listfiles
+\titlename{Chương}
+%\swapnumbers
+\usepackage{listings}
+\usepackage{color} % tô màu cho cod
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+\lstset{frame=tb,
+	language=Python,
+	aboveskip=3mm,
+	belowskip=3mm,
+	showstringspaces=false,
+	columns=flexible,
+	basicstyle={\small\ttfamily},
+	numbers=none,
+	numberstyle=\tiny\color{gray},
+	keywordstyle=\color{blue},
+	commentstyle=\color{dkgreen},
+	stringstyle=\color{mauve},
+	breaklines=true,
+	breakatwhitespace=true,
+	tabsize=3
+}
+\newtheorem{prof}{}
+\newtheorem {theorem}{Định lý}[section]
+\newtheorem {corollary}[theorem]{Hệ quả}
+\newtheorem {lemma}[theorem]{Bổ đề}
+\newtheorem {proposition}[theorem]{Mệnh đề}
+\newtheorem {definition}[theorem]{Định nghĩa}
+\newtheorem{tc}[theorem]{Tiêu chuẩn}
+\newtheorem*{main}{Mệnh đề}
+\theoremstyle {definition}
+\newtheorem {remark}[theorem]{Chú ý}
+\newtheorem {example}[theorem]{Ví dụ}
+\newtheorem {notation}[theorem]{Kí hiệu}
+\newtheorem {note}[theorem]{Nhận xét}
+\renewcommand{\proofname}{\textbf{\textit{Chứng minh}}}
+\renewcommand{\bibname}{TÀI LIỆU THAM KHẢO}
+\renewcommand{\chaptername}{CHƯƠNG}
+\renewcommand{\thechapter}{\arabic{chapter}}
+\renewcommand{\thesection}{\thechapter.\arabic{section}}
+\renewcommand{\thesubsection}{\thesection.\arabic{subsection}}
+\renewcommand{\contentsname}{\hspace{100pt}MỤC LỤC}
+\newenvironment{example1}[1][Ví dụ 1]{\begin{trivlist}
+		\item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
+\newenvironment{example2}[1][Ví dụ 2]{\begin{trivlist}
+		\item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
+\newenvironment{example3}[1][Ví dụ 3]{\begin{trivlist}
+		\item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
+\newcommand{\dn}[1]{\frac{\partial #1}{\partial \nu }}
+
+\titleformat{\section}
+{\normalfont\bfseries}{\thesection.}{1em}{\fontsize 16}{}
+\titleformat{\subsection}
+{\normalfont\itshape}{\thesubsection.}{1em}{\fontsize 16}{}
+\titleformat{\subsubsection}
+{\normalfont\bfseries}{\thesubsubsection.}{1em}{\fontsize 14}{}
+
+\def\ba{\mathbf{a}}
+\def\bb{\mathbf{b}}
+\def\bd{\mathbf{d}}
+\def\be{\mathbf{e}}
+\def\bm{\mathbf{m}}
+\def\bK{\mathbf{K}}
+\def\bk{\mathbf{k}}
+\def\bM{\mathbf{M}}
+\def\bp{\mathbf{p}}
+\def\bq{\mathbf{q}}
+\def\bx{\mathbf{x}}
+\def\by{\mathbf{y}}
+\def\bz{\mathbf{z}}
+\def\bu{\mathbf{u}}
+\def\bv{\mathbf{v}}
+\def\bw{\mathbf{w}}
+
+\def\bbx{\bar{\mathbf{x}}}
+\def\bbX{\bar{\mathbf{X}}}
+\def\bbw{\bar{\mathbf{w}}}
+
+\def\bE{\mathbf{E}}
+\def\bX{\mathbf{X}}
+\def\bY{\mathbf{Y}}
+\def\bZ{\mathbf{Z}}
+\def\bA{\mathbf{A}}
+\def\bB{\mathbf{B}}
+\def\bC{\mathbf{C}}
+\def\bP{\mathbf{P}}
+\def\bQ{\mathbf{Q}}
+\def\bI{\mathbf{W}}
+\def\bS{\mathbf{S}}
+\def\bT{\mathbf{T}}
+\def\bW{\mathbf{W}}
+\def\bI{\mathbf{I}}
+\def\bL{\mathbf{L}}
+\def\bU{\mathbf{U}}
+\def\bzero{\mathbf{0}}
+\def\bone{\mathbf{1}}
+\def\R{\mathbb{R}}
+\def\L{\mathcal{L}} 
+\def\S{\mathcal{S}} 
+
+
+\def\bmt{\left[\begin{matrix}}
+	\def\bmt{\end{matrix}\right]}
+
+\def\diag{\text{diag}}
+
+\def\bmt{\left[\begin{matrix}}
+	\def\emt{\end{matrix}\right]}
+
+\def\blambda{\boldsymbol{\lambda}}
+\def\bxi{\boldsymbol{\xi}}
+\def\bSigma{\mathbf{\Sigma}}
+\def\bLambda{\boldsymbol{\Lambda}}
+\def\bnu{\boldsymbol{\nu}}
+\def\bmu{\boldsymbol{\mu}}
+
+% \def\dpcm{\hfill $\square$} % Điều phải chứng minh. 
+\def\dpcm{} % Điều phải chứng minh. 
+\def\tcr{\textcolor{red}}
+\def\tcb{\textcolor{blue}}
+\def\trace{\text{trace}}
+\def\rank{\text{rank}}
+\def\sgn{\text{sgn}}
+\def\assign{\leftarrow}
+\def\imply{\Rightarrow}
+\def\dom{\textbf{dom}}
+
+\def\lg{\textit{\textbf{Lời giải}}:}
+\def\vd{\textbf{Ví dụ}: }
+\def\kq{{{Kết quả:}}}
+
+\def\tenluanvan{\textbf{Nghiên cứu hỗ trợ chuẩn đoán bệnh lao dựa vào học máy}}
+\def\tenchuongi{\text{Khái quát về CNN và bài toán chuẩn đoán bệnh lao.}}
+\def\tenchuongii{\text{Một số mô hình hỗ trợ chuẩn đoán.}}
+\def\tenchuongiii{\text{Chương trình thử nghiệm.}}
+% Tự định nghĩa
+\DeclareMathOperator*{\argmin}{argmin}
+\DeclareMathOperator*{\argmax}{argmax}
+
+\fancypagestyle{danh_trang_tren_header}{%
+	\fancyhf{}
+	\fancyhead[C]{\thepage}
+	\renewcommand{\headrulewidth}{0.3pt}
+}
+
+\newcommand{\chapnum}[1]{\centering{CHƯƠNG #1}}
+\makeatletter
+\def\@makechapterhead#1{%
+	\vspace{0.5\baselineskip}%
+	{\parindent \z@ \raggedright \reset@font
+		\ifnum \c@secnumdepth >\m@ne
+		\Large\bfseries \chapnum{\thechapter}%
+		%sửa ở đây, ví dụ LARGE --> cỡ to, bfseries -->đậm.
+		\par\nobreak
+		\vskip.5\baselineskip\relax
+		\fi
+		#1\par\nobreak
+		\vskip\baselineskip
+}}
+\makeatother
+\setcounter{secnumdepth}{4}
+\numberwithin{equation}{section}
+\makeindex
+\begin{document}
+	\large
+	%+============================================================================
+	\newpage
+	\pagestyle{danh_trang_tren_header}
+	\fontsize{14pt}{22pt}\selectfont
+
+	\input{loinoidau_tomtat}
+	%\pagenumbering{arabic}
+	\input {chuong1_tomtat}
+	\input {chuong2_tomtat}
+	\input {chuong3_tomtat}
+	\input {ketluan}
+	\input {tailieuthamkhao}
+	
+\end{document}
+
+
